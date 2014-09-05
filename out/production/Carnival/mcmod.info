@@ -1,0 +1,17 @@
+[
+{
+    "modid": "carnival",
+    "name": "Carnival Mod",
+    "description": "Custom mod for the Carnival Modpack by DethRidgecraft and DanCarlyon. This mod will extend the functionality of other mods and add new items",
+    "version": "1.7.10-1.0",
+    "mcversion": "1.7.10",
+    "url": "",
+    "updateUrl": "",
+    "authors": [ "DanCarlyon","DethRidgeCraft" ],
+    "credits": "The Dethknights",
+    "logoFile": "",
+    "screenshots": [ ],
+    "parent": "",
+    "dependencies": [ ]
+}
+]
