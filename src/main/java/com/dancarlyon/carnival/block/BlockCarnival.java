@@ -1,5 +1,6 @@
 package com.dancarlyon.carnival.block;
 
+import com.dancarlyon.carnival.creativetab.CreativeTabCarnival;
 import com.dancarlyon.carnival.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class BlockCarnival extends Block
     public BlockCarnival(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabCarnival.CARNIVAL_TAB);
     }
 
     public BlockCarnival()

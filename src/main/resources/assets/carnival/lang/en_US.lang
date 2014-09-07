@@ -1,5 +1,20 @@
+#Creative Tabs
+itemGroup.carnival=Carnival
+
 # Item Localizations
+item.carnival:raw_donut.name=Raw Donut
 item.carnival:bacon_donut.name=Bacon Donut
+item.carnival:plain_donut.name=Plain Donut
+item.carnival:iced_donut.name=Iced Donut
+item.carnival:icing.name=Icing
+item.carnival:sprinkles.name=Donut Sprinkles
+item.carnival:bacon.name=Bacon
+item.carnival:raw_bacon.name=Raw Bacon
+item.carnival:donut_with_sprinkles.name=Donut With Sprinkles
+
+item.carnival:raw_hotdog.name=Raw Hot Dog
+item.carnival:cooked_hotdog.name=Cooked Hot Dog
+item.carnival:hotdog.name=Hot Dog
 
 
 #Tiles

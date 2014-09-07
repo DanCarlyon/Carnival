@@ -1,5 +1,7 @@
 package com.dancarlyon.carnival.block;
 
+import com.dancarlyon.carnival.creativetab.CreativeTabCarnival;
+
 public class BlockSwordInStone extends BlockCarnival
 {
     public BlockSwordInStone()

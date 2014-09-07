@@ -1,5 +1,6 @@
 package com.dancarlyon.carnival.item;
 
+import com.dancarlyon.carnival.creativetab.CreativeTabCarnival;
 import com.dancarlyon.carnival.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,7 +13,7 @@ public class ItemCarnival extends Item
     public ItemCarnival()
     {
         super();
-
+        this.setCreativeTab(CreativeTabCarnival.CARNIVAL_TAB);
     }
 
     @Override

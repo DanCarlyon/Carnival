@@ -23,7 +23,6 @@ archivesBaseName = "Carnival"
 
 minecraft {
     version = "1.7.10-10.13.0.1208"
-    assetDir = "eclipse/assets"
 }
 
 dependencies {

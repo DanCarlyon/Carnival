@@ -2,6 +2,7 @@ package com.dancarlyon.carnival;
 
 import com.dancarlyon.carnival.handler.ConfigurationHandler;
 import com.dancarlyon.carnival.init.ModBlocks;
+import com.dancarlyon.carnival.init.ModFoodItems;
 import com.dancarlyon.carnival.init.ModItems;
 import com.dancarlyon.carnival.init.Recipes;
 import com.dancarlyon.carnival.proxy.IProxy;
@@ -29,6 +30,8 @@ public class Carnival
         //network/configs/items
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+        ModFoodItems.init();
 
         ModItems.init();
 
