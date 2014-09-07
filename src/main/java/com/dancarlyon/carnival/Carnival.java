@@ -1,6 +1,7 @@
 package com.dancarlyon.carnival;
 
 import com.dancarlyon.carnival.handler.ConfigurationHandler;
+import com.dancarlyon.carnival.init.ModBlocks;
 import com.dancarlyon.carnival.init.ModItems;
 import com.dancarlyon.carnival.init.Recipes;
 import com.dancarlyon.carnival.proxy.IProxy;
@@ -12,7 +13,6 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import scala.tools.nsc.backend.icode.TypeKinds;
 
 @Mod(modid = Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.MOD_VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class Carnival
@@ -31,6 +31,8 @@ public class Carnival
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
         ModItems.init();
+
+        ModBlocks.init();
 
         LogHelper.info("Pre Initialization Checks Complete!");
     }
