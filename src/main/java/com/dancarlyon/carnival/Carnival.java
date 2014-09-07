@@ -2,6 +2,7 @@ package com.dancarlyon.carnival;
 
 import com.dancarlyon.carnival.handler.ConfigurationHandler;
 import com.dancarlyon.carnival.init.ModItems;
+import com.dancarlyon.carnival.init.Recipes;
 import com.dancarlyon.carnival.proxy.IProxy;
 import com.dancarlyon.carnival.reference.Reference;
 import com.dancarlyon.carnival.utility.LogHelper;
@@ -38,6 +39,7 @@ public class Carnival
     public void init(FMLInitializationEvent event)
     {
         //Crafting register
+        Recipes.init();
         LogHelper.info("Initialization Checks Complete!");
     }
 
