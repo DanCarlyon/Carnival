@@ -12,10 +12,13 @@ item.carnival:bacon.name=Bacon
 item.carnival:raw_bacon.name=Raw Bacon
 item.carnival:donut_with_sprinkles.name=Donut With Sprinkles
 
+item.carnival:giant_waffle.name=Giant Waffle
+
 item.carnival:raw_hotdog.name=Raw Hot Dog
 item.carnival:cooked_hotdog.name=Cooked Hot Dog
 item.carnival:hotdog.name=Hot Dog
 
+item.carnival:carnival_token=Carnival Token
 
 #Tiles
 tile.carnival:swordinstone.name=The Sword in The Stone

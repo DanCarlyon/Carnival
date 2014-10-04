@@ -13,6 +13,8 @@ public class ModFoodItems
     public static final FoodItemCarnival bacon = new ItemBacon();
     public static final FoodItemCarnival rawBacon = new ItemRawBacon();
 
+    public static final FoodItemCarnival giantWaffle = new ItemGiantWaffle();
+
     public static final FoodItemCarnival rawHotdog = new ItemRawSausage();
     public static final FoodItemCarnival cookedHotdog = new ItemCookedSausage();
     public static final FoodItemCarnival hotdog = new ItemHotdog();
@@ -26,6 +28,8 @@ public class ModFoodItems
         GameRegistry.registerItem(sprinklesDonut, "donut_with_sprinkles");
         GameRegistry.registerItem(bacon, "bacon");
         GameRegistry.registerItem(rawBacon, "raw_bacon");
+
+        GameRegistry.registerItem(giantWaffle, "giant_waffle");
 
         GameRegistry.registerItem(rawHotdog, "raw_hotdog");
         GameRegistry.registerItem(cookedHotdog, "cooked_hotdog");

@@ -9,11 +9,13 @@ public class ModItems
 {
     public static final ItemCarnival icing = new ItemIcing();
     public static final ItemCarnival sprinkles = new ItemSprinkles();
+    public static final ItemCarnival carnivalToken = new ItemToken();
 
     public static void init()
     {
         GameRegistry.registerItem(icing, "icing");
         GameRegistry.registerItem(sprinkles, "sprinkles");
+        GameRegistry.registerItem(carnivalToken, "carnival_token");
     }
 
 }
