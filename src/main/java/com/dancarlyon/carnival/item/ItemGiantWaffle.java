@@ -8,6 +8,6 @@ public class ItemGiantWaffle extends FoodItemCarnival
     {
         super(12, 0.9F, false);
         this.setUnlocalizedName("giant_waffle");
-        this.setPotionEffect(Potion.regeneration.id, 60, 5, 1);
+        this.setPotionEffect(Potion.heal.id, 60,5, 1);
     }
 }

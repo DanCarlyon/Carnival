@@ -18,7 +18,9 @@ item.carnival:raw_hotdog.name=Raw Hot Dog
 item.carnival:cooked_hotdog.name=Cooked Hot Dog
 item.carnival:hotdog.name=Hot Dog
 
-item.carnival:carnival_token=Carnival Token
+item.carnival:carnival_token.name=Carnival Token
+
+item.carnival:cyanide_bottle.name=Epic Bottle of Cyanide
 
 #Tiles
 tile.carnival:swordinstone.name=The Sword in The Stone

@@ -3,6 +3,7 @@ package com.dancarlyon.carnival.init;
 import com.dancarlyon.carnival.item.*;
 import com.dancarlyon.carnival.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.potion.Potion;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModItems
@@ -16,6 +17,7 @@ public class ModItems
         GameRegistry.registerItem(icing, "icing");
         GameRegistry.registerItem(sprinkles, "sprinkles");
         GameRegistry.registerItem(carnivalToken, "carnival_token");
+
     }
 
 }

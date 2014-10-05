@@ -19,6 +19,8 @@ public class ModFoodItems
     public static final FoodItemCarnival cookedHotdog = new ItemCookedSausage();
     public static final FoodItemCarnival hotdog = new ItemHotdog();
 
+    public static final FoodItemCarnival cyanideBottle = new ItemCyanideBottle();
+
     public static void init()
     {
         GameRegistry.registerItem(rawDonut, "raw_Donut");
@@ -34,5 +36,7 @@ public class ModFoodItems
         GameRegistry.registerItem(rawHotdog, "raw_hotdog");
         GameRegistry.registerItem(cookedHotdog, "cooked_hotdog");
         GameRegistry.registerItem(hotdog, "hotdog");
+
+        GameRegistry.registerItem(cyanideBottle, "cyanide_bottle");
     }
 }
