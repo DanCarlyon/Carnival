@@ -1,0 +1,31 @@
+****************************
+ Powered By MCP:             
+ http://modcoderpack.com/    
+ Searge, ProfMobius, Fesh0r, 
+ R4wk, ZeuX, IngisKahn, bspkrs
+ MCP Data version : unknown
+****************************
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+E:\ModDev\Carnival\build\sources\java\com\dancarlyon\carnival\handler\ConfigurationHandler.java:4: error: package com.sun.xml.internal.bind.v2.model.core does not exist
+import com.sun.xml.internal.bind.v2.model.core.ID;
+                                              ^
+1 error
+1 warning
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 9.108 secs

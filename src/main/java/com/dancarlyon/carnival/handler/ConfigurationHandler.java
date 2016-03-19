@@ -40,7 +40,7 @@ public class ConfigurationHandler
 
     private static void loadConfiguration()
     {
-        //testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example value");
+        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example value");
 
         baconDonutRegenDuration = configuration.getInt("Bacon Donut Regen Duration", "FoodEffectDurations", 60, 0, 120, "Number of seconds for Bacon Donut Regeneration. Min: 0, Max: 120");
 
