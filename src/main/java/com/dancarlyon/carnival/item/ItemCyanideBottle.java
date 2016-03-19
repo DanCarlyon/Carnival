@@ -1,5 +1,6 @@
 package com.dancarlyon.carnival.item;
 
+import com.dancarlyon.carnival.handler.ConfigurationHandler;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumAction;
 import net.minecraft.item.ItemStack;
@@ -13,9 +14,9 @@ public class ItemCyanideBottle extends FoodItemCarnival
         super(0, 5F, false);
         this.setUnlocalizedName("cyanide_bottle");
         this.setMaxStackSize(1);
-        this.setPotionEffect(Potion.regeneration.id, 90, 5, 1);
-        this.setPotionEffect(Potion.heal.id, 60, 5, 1);
-        this.setPotionEffect(Potion.poison.id, 120, 5, 1);
+        this.setPotionEffect(Potion.regeneration.id, ConfigurationHandler.cyanideRegenDuration, 5, 1);
+        this.setPotionEffect(Potion.heal.id, ConfigurationHandler.cyanideHealthDuration, 5, 1);
+        this.setPotionEffect(Potion.poison.id, ConfigurationHandler.cyanidePoisonDuration, 5, 1);
     }
 
     public EnumAction getItemUseAction(ItemStack ItemCyanideBottle)

@@ -1,5 +1,6 @@
 package com.dancarlyon.carnival.item;
 
+import com.dancarlyon.carnival.handler.ConfigurationHandler;
 import net.minecraft.potion.Potion;
 
 public class ItemBaconDonut extends FoodItemCarnival
@@ -8,6 +9,6 @@ public class ItemBaconDonut extends FoodItemCarnival
     {
         super(12, 0.9F, false);
         this.setUnlocalizedName("bacon_donut");
-        this.setPotionEffect(Potion.regeneration.id, 60, 5, 1);
+        this.setPotionEffect(Potion.regeneration.id, ConfigurationHandler.baconDonutRegenDuration, 5, 1);
     }
 }
