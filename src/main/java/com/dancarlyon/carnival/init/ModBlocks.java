@@ -8,10 +8,10 @@ import cpw.mods.fml.common.registry.GameRegistry;
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModBlocks
 {
-    public static final BlockCarnival swordinstone = new BlockSwordInStone();
+    //public static final BlockCarnival swordinstone = new BlockSwordInStone();
 
     public static void init()
     {
-        GameRegistry.registerBlock(swordinstone, "swordinstone");
+        //GameRegistry.registerBlock(swordinstone, "swordinstone");
     }
 }

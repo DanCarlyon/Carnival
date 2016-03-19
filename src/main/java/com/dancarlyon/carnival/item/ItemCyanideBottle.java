@@ -14,7 +14,7 @@ public class ItemCyanideBottle extends FoodItemCarnival
         this.setUnlocalizedName("cyanide_bottle");
         this.setMaxStackSize(1);
         this.setPotionEffect(Potion.regeneration.id, 90, 5, 1);
-        this.setPotionEffect(Potion.heal.id, 60,5, 1);
+        this.setPotionEffect(Potion.heal.id, 60, 5, 1);
         this.setPotionEffect(Potion.poison.id, 120, 5, 1);
     }
 

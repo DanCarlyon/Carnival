@@ -13,6 +13,12 @@ public class ConfigurationHandler
 {
     public static Configuration configuration;
     public static boolean testValue = false;
+    public static int baconDonutRegenDuration = 0;
+    public static int cyanideRegenDuration = 0;
+    public static int cyanideHealthDuration = 0;
+    public static int cyanidePoisonDuration = 0;
+
+    //Configuration.CATEGORY_FOODEFFECTS = "foodEffects";
 
     public static void init(File configFile)
     {
@@ -35,11 +41,18 @@ public class ConfigurationHandler
 
     private static void loadConfiguration()
     {
-        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example value");
+        //testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example value");
+
+        baconDonutRegenDuration = configuration.getInt("Bacon Donut Regen Duration", "FoodEffectDurations", 60, 0, 120, "Number of seconds for Bacon Donut Regeneration. Min: 0, Max: 120");
+
+        cyanideRegenDuration = configuration.getInt("Cyanide(Epic) Bottle Regen Duration", "FoodEffectDurations", 90, 0, 120, "Number of seconds for Cyanide Regeneration. Min: 0, Max: 120");
+        cyanideHealthDuration = configuration.getInt("Cyanide(Epic) Bottle Heal Duration", "FoodEffectDurations", 60, 0, 120, "Number of seconds for Cyanide Regeneration. Min: 0, Max: 120");
+        cyanidePoisonDuration = configuration.getInt("Cyanide(Epic) Bottle Poison Duration", "FoodEffectDurations", 120, 0, 240, "Number of seconds for Cyanide Regeneration. Min: 0, Max: 240");
 
         if (configuration.hasChanged())
         {
             configuration.save();
         }
+
     }
 }
