@@ -2,6 +2,7 @@ package com.dancarlyon.carnival.init;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
@@ -15,6 +16,8 @@ public class Recipes
 
         GameRegistry.addRecipe(new ItemStack(ModFoodItems.rawHotdog, 3), "   ", "ppp", "   ", 'p', new ItemStack(Items.porkchop));
         GameRegistry.addRecipe(new ItemStack(ModFoodItems.hotdog, 4), "   ", "bhb", " b ", 'b', new ItemStack(Items.bread), 'h', new ItemStack(ModFoodItems.cookedHotdog));
+
+        GameRegistry.addRecipe(new ItemStack(ModFoodItems.candyFloss, 1), "sss", "sws", " w ", 's', new ItemStack(Items.sugar), 'w', new ItemStack(Items.stick));
 
         //Shapeless
         GameRegistry.addShapelessRecipe(new ItemStack(ModFoodItems.icedDonut), new ItemStack(ModItems.icing), new ItemStack(ModFoodItems.plainDonut));

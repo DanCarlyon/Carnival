@@ -12,7 +12,6 @@ import java.io.File;
 public class ConfigurationHandler
 {
     public static Configuration configuration;
-    public static boolean testValue = false;
     public static int baconDonutRegenDuration = 0;
     public static int cyanideRegenDuration = 0;
     public static int cyanideHealthDuration = 0;
@@ -40,8 +39,6 @@ public class ConfigurationHandler
 
     private static void loadConfiguration()
     {
-        //testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example value");
-
         baconDonutRegenDuration = configuration.getInt("Bacon Donut Regen Duration", "FoodEffectDurations", 60, 0, 120, "Number of seconds for Bacon Donut Regeneration. Min: 0, Max: 120");
 
         cyanideRegenDuration = configuration.getInt("Cyanide(Epic) Bottle Regen Duration", "FoodEffectDurations", 90, 0, 120, "Number of seconds for Cyanide Regeneration. Min: 0, Max: 120");

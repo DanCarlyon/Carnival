@@ -21,6 +21,8 @@ public class ModFoodItems
 
     public static final FoodItemCarnival cyanideBottle = new ItemCyanideBottle();
 
+    public static final FoodItemCarnival candyFloss = new ItemCandyFloss();
+
     public static void init()
     {
         GameRegistry.registerItem(rawDonut, "raw_Donut");
@@ -38,5 +40,7 @@ public class ModFoodItems
         GameRegistry.registerItem(hotdog, "hotdog");
 
         GameRegistry.registerItem(cyanideBottle, "cyanide_bottle");
+
+        GameRegistry.registerItem(candyFloss, "candy_floss");
     }
 }
