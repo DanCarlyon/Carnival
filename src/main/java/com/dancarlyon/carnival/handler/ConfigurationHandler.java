@@ -1,7 +1,7 @@
 package com.dancarlyon.carnival.handler;
 
 import com.dancarlyon.carnival.reference.Reference;
-import com.sun.xml.internal.bind.v2.model.core.ID;
+//import com.sun.xml.internal.bind.v2.model.core.ID;
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.common.config.Configuration;
@@ -40,7 +40,7 @@ public class ConfigurationHandler
 
     private static void loadConfiguration()
     {
-        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example value");
+        //testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example value");
 
         baconDonutRegenDuration = configuration.getInt("Bacon Donut Regen Duration", "FoodEffectDurations", 60, 0, 120, "Number of seconds for Bacon Donut Regeneration. Min: 0, Max: 120");
 
