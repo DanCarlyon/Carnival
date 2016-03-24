@@ -1,10 +1,7 @@
 package com.dancarlyon.carnival;
 
 import com.dancarlyon.carnival.handler.ConfigurationHandler;
-import com.dancarlyon.carnival.init.ModBlocks;
-import com.dancarlyon.carnival.init.ModFoodItems;
-import com.dancarlyon.carnival.init.ModItems;
-import com.dancarlyon.carnival.init.Recipes;
+import com.dancarlyon.carnival.init.*;
 import com.dancarlyon.carnival.proxy.IProxy;
 import com.dancarlyon.carnival.reference.Reference;
 import com.dancarlyon.carnival.utility.LogHelper;
@@ -45,6 +42,10 @@ public class Carnival
     {
         //Crafting register
         Recipes.init();
+
+        //World Stuff
+        ModWorld.init();
+
         LogHelper.info("Initialization Checks Complete!");
     }
 
