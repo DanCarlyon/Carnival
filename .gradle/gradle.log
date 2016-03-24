@@ -24,69 +24,69 @@
 [ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
 [ant:javac] 1 warning
 :runClient
-[19:30:18] [main/INFO] [GradleStart]: Extra: []
-[19:30:18] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/Danny/.gradle/caches/minecraft/assets, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[19:30:18] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[19:30:18] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[19:30:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[19:30:18] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[19:30:18] [main/INFO] [FML]: Forge Mod Loader version 7.10.25.1208 for Minecraft 1.7.10 loading
-[19:30:18] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_71, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jdk1.7.0_71\jre
-[19:30:18] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[19:30:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[19:30:18] [main/INFO] [GradleStart]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
-[19:30:18] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[19:30:18] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:30:18] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[19:30:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[19:30:18] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:30:18] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:30:18] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:30:18] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[19:30:20] [main/ERROR] [FML]: The minecraft jar file:/C:/Users/Danny/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
-[19:30:20] [main/ERROR] [FML]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
-[19:30:20] [main/ERROR] [FML]: Technical information: ClientBrandRetriever was at jar:file:/C:/Users/Danny/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
-[19:30:20] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[19:30:20] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:30:20] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[19:30:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[19:30:20] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[19:30:20] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[19:30:20] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[19:30:21] [main/INFO]: Setting user: Player31
-[19:30:23] [Client thread/INFO]: LWJGL Version: 2.9.1
-[19:30:23] [Client thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
-[19:30:23] [Client thread/INFO] [FML]: MinecraftForge v10.13.0.1208 Initialized
-[19:30:23] [Client thread/INFO] [FML]: Replaced 182 ore recipies
-[19:30:23] [Client thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
-[19:30:24] [Client thread/INFO] [FML]: Searching E:\ModDev\Carnival\run\mods for mods
-[19:30:24] [Client thread/ERROR] [FML]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
-[19:30:26] [Client thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
-[19:30:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Carnival
-[19:30:27] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[19:30:27] [Client thread/INFO] [FML]: Found 344 ObjectHolder annotations
-[19:30:27] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[19:30:27] [Client thread/INFO] [Carnival]: Pre Initialization Checks Complete!
-[19:30:27] [Client thread/INFO] [FML]: Applying holder lookups
-[19:30:27] [Client thread/WARN] [FML]: Unable to lookup Carnival:carnivalToken for public static com.dancarlyon.carnival.item.ItemCarnival com.dancarlyon.carnival.init.ModItems.carnivalToken. Is there something wrong with the registry?
-[19:30:27] [Client thread/INFO] [FML]: Holder lookups applied
+[22:56:06] [main/INFO] [GradleStart]: Extra: []
+[22:56:06] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/Danny/.gradle/caches/minecraft/assets, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[22:56:06] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:56:06] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:56:06] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:56:06] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:56:06] [main/INFO] [FML]: Forge Mod Loader version 7.10.25.1208 for Minecraft 1.7.10 loading
+[22:56:06] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_71, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jdk1.7.0_71\jre
+[22:56:06] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[22:56:06] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:56:06] [main/INFO] [GradleStart]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[22:56:06] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[22:56:06] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:56:06] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[22:56:06] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[22:56:06] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:56:06] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:56:06] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:56:07] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[22:56:08] [main/ERROR] [FML]: The minecraft jar file:/C:/Users/Danny/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
+[22:56:08] [main/ERROR] [FML]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
+[22:56:08] [main/ERROR] [FML]: Technical information: ClientBrandRetriever was at jar:file:/C:/Users/Danny/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
+[22:56:08] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[22:56:08] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:56:08] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[22:56:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[22:56:08] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[22:56:08] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[22:56:08] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[22:56:09] [main/INFO]: Setting user: Player171
+[22:56:11] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:56:11] [Client thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
+[22:56:11] [Client thread/INFO] [FML]: MinecraftForge v10.13.0.1208 Initialized
+[22:56:11] [Client thread/INFO] [FML]: Replaced 182 ore recipies
+[22:56:11] [Client thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
+[22:56:12] [Client thread/INFO] [FML]: Searching E:\ModDev\Carnival\run\mods for mods
+[22:56:12] [Client thread/ERROR] [FML]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[22:56:14] [Client thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
+[22:56:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Carnival
+[22:56:15] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[22:56:15] [Client thread/INFO] [FML]: Found 344 ObjectHolder annotations
+[22:56:15] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[22:56:15] [Client thread/INFO] [Carnival]: Pre Initialization Checks Complete!
+[22:56:15] [Client thread/INFO] [FML]: Applying holder lookups
+[22:56:15] [Client thread/WARN] [FML]: Unable to lookup Carnival:carnivalToken for public static com.dancarlyon.carnival.item.ItemCarnival com.dancarlyon.carnival.init.ModItems.carnivalToken. Is there something wrong with the registry?
+[22:56:15] [Client thread/INFO] [FML]: Holder lookups applied
 
 Starting up SoundSystem...
 Initializing LWJGL OpenAL
     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
 OpenAL initialized.
 
-[19:30:28] [Sound Library Loader/INFO]: Sound engine started
-[19:30:29] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:30:29] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[19:30:29] [Client thread/INFO] [Carnival]: Init World Stuff
-[19:30:29] [Client thread/INFO] [Carnival]: Trying to add big top
-[19:30:29] [Client thread/INFO] [Carnival]: Initialization Checks Complete!
-[19:30:29] [Client thread/INFO] [Carnival]: Post Initialization Checks Complete!
-[19:30:29] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
-[19:30:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Carnival
-[19:30:29] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[19:30:30] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:56:16] [Sound Library Loader/INFO]: Sound engine started
+[22:56:17] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:56:17] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[22:56:17] [Client thread/INFO] [Carnival]: Init World Stuff
+[22:56:17] [Client thread/INFO] [Carnival]: Trying to add big top
+[22:56:17] [Client thread/INFO] [Carnival]: Initialization Checks Complete!
+[22:56:17] [Client thread/INFO] [Carnival]: Post Initialization Checks Complete!
+[22:56:17] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
+[22:56:17] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Carnival
+[22:56:17] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[22:56:17] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
 
 SoundSystem shutting down...
     Author: Paul Lamb, www.paulscode.com
@@ -97,89 +97,79 @@ Initializing LWJGL OpenAL
     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
 OpenAL initialized.
 
-[19:30:30] [Sound Library Loader/INFO]: Sound engine started
-[19:30:33] [Thread-8/WARN] [FML]: =============================================================
-[19:30:33] [Thread-8/WARN] [FML]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FMLCommonHandler!
-[19:30:33] [Thread-8/WARN] [FML]: Offendor: com/jcraft/jogg/Buffer.report(Ljava/lang/String;)V
-[19:30:33] [Thread-8/WARN] [FML]: =============================================================
-[19:30:35] [Client thread/INFO]: Deleting level New World-
-[19:30:35] [Client thread/INFO]: Attempt 1...
-[19:30:39] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[19:30:39] [Server thread/INFO]: Generating keypair
-[19:30:39] [Server thread/INFO]: Converting map!
-[19:30:39] [Server thread/INFO]: Scanning folders...
-[19:30:39] [Server thread/INFO]: Total conversion count is 0
-[19:30:39] [Server thread/INFO] [FML]: Injecting existing block and item data into this server instance
-[19:30:39] [Server thread/INFO] [FML]: Applying holder lookups
-[19:30:39] [Server thread/WARN] [FML]: Unable to lookup Carnival:carnivalToken for public static com.dancarlyon.carnival.item.ItemCarnival com.dancarlyon.carnival.init.ModItems.carnivalToken. Is there something wrong with the registry?
-[19:30:39] [Server thread/INFO] [FML]: Holder lookups applied
-[19:30:40] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:30:40] [Server thread/INFO] [Carnival]: Bounding Box: (-442, 3, 120; -423, 17, 139)
-[19:30:40] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:30:40] [Server thread/INFO] [Carnival]: Bounding Box: (-442, 3, 120; -423, 17, 139)
-[19:30:40] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:30:40] [Server thread/INFO] [Carnival]: Bounding Box: (-442, 3, 73; -423, 17, 92)
-[19:30:41] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:30:41] [Server thread/INFO] [Carnival]: Bounding Box: (-442, 3, 73; -423, 17, 92)
-[19:30:41] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:30:41] [Server thread/INFO] [Carnival]: Bounding Box: (-442, 3, 73; -423, 17, 92)
-[19:30:41] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:30:41] [Server thread/INFO] [Carnival]: Bounding Box: (-442, 3, 73; -423, 17, 92)
-[19:30:41] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@df24c4a)
-[19:30:41] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@df24c4a)
-[19:30:41] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@df24c4a)
-[19:30:41] [Server thread/INFO]: Preparing start region for level 0
-[19:30:41] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:30:41] [Server thread/INFO] [Carnival]: Bounding Box: (-442, 3, 73; -423, 17, 92)
-[19:30:41] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:30:41] [Server thread/INFO] [Carnival]: Bounding Box: (-442, 3, 73; -423, 17, 92)
-[19:30:41] [Server thread/INFO]: Changing view distance to 12, from 10
-[19:30:41] [Netty Client IO #0/INFO] [FML]: Server protocol version 1
-[19:30:41] [Netty IO #1/INFO] [FML]: Client protocol version 1
-[19:30:41] [Netty IO #1/INFO] [FML]: Client attempting to join with 4 mods : mcp@9.05,FML@7.10.25.1208,Forge@10.13.0.1208,Carnival@1.7.10-1.0
-[19:30:41] [Netty IO #1/INFO] [FML]: Attempting connection with missing mods [] at CLIENT
-[19:30:42] [Netty Client IO #0/INFO] [FML]: Attempting connection with missing mods [] at SERVER
-[19:30:42] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:30:42] [Server thread/INFO]: Player31[local:E:cb6b4fc6] logged in with entity id 12 at (-626.5, 4.0, -108.5)
-[19:30:42] [Server thread/INFO]: Player31 joined the game
-[19:30:42] [Client thread/INFO] [FML]: [Client thread] Client side modded connection established
-[19:30:52] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:30:52] [Server thread/INFO] [Carnival]: Bounding Box: (-506, 3, -325; -487, 17, -306)
-[19:30:52] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:30:52] [Server thread/INFO] [Carnival]: Bounding Box: (-506, 3, -325; -487, 17, -306)
-[19:30:59] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:30:59] [Server thread/INFO] [Carnival]: Bounding Box: (-506, 3, -325; -487, 17, -306)
-[19:31:05] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:31:05] [Server thread/INFO] [Carnival]: Bounding Box: (-506, 3, -325; -487, 17, -306)
-[19:31:06] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:31:06] [Server thread/INFO] [Carnival]: Bounding Box: (-506, 3, -325; -487, 17, -306)
-[19:31:06] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:31:06] [Server thread/INFO] [Carnival]: Bounding Box: (-506, 3, -325; -487, 17, -306)
-[19:31:15] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:31:15] [Server thread/INFO] [Carnival]: Bounding Box: (-747, 3, -398; -728, 17, -379)
-[19:31:15] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:31:15] [Server thread/INFO] [Carnival]: Bounding Box: (-747, 3, -398; -728, 17, -379)
-[19:31:17] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:31:17] [Server thread/INFO] [Carnival]: Bounding Box: (-747, 3, -398; -728, 17, -379)
-[19:31:17] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
-[19:31:17] [Server thread/INFO] [Carnival]: Bounding Box: (-747, 3, -398; -728, 17, -379)
-[19:32:29] [Server thread/INFO]: Saving and pausing game...
-[19:32:29] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:32:29] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:32:29] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:32:29] [Server thread/INFO]: Stopping server
-[19:32:29] [Server thread/INFO]: Saving players
-[19:32:30] [Server thread/INFO]: Saving worlds
-[19:32:30] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[19:32:30] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[19:32:30] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[19:32:30] [Server thread/INFO] [FML]: Unloading dimension 0
-[19:32:30] [Server thread/INFO] [FML]: Unloading dimension -1
-[19:32:30] [Server thread/INFO] [FML]: Unloading dimension 1
-[19:32:30] [Server thread/INFO] [FML]: Applying holder lookups
-[19:32:30] [Server thread/WARN] [FML]: Unable to lookup Carnival:carnivalToken for public static com.dancarlyon.carnival.item.ItemCarnival com.dancarlyon.carnival.init.ModItems.carnivalToken. Is there something wrong with the registry?
-[19:32:30] [Server thread/INFO] [FML]: Holder lookups applied
-[19:32:31] [Client thread/INFO]: Stopping!
+[22:56:18] [Sound Library Loader/INFO]: Sound engine started
+[22:56:21] [Thread-8/WARN] [FML]: =============================================================
+[22:56:21] [Thread-8/WARN] [FML]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FMLCommonHandler!
+[22:56:21] [Thread-8/WARN] [FML]: Offendor: com/jcraft/jogg/Buffer.report(Ljava/lang/String;)V
+[22:56:21] [Thread-8/WARN] [FML]: =============================================================
+[22:56:24] [Client thread/INFO]: Deleting level New World-
+[22:56:24] [Client thread/INFO]: Attempt 1...
+[22:56:30] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[22:56:30] [Server thread/INFO]: Generating keypair
+[22:56:30] [Server thread/INFO]: Converting map!
+[22:56:30] [Server thread/INFO]: Scanning folders...
+[22:56:30] [Server thread/INFO]: Total conversion count is 0
+[22:56:30] [Server thread/INFO] [FML]: Injecting existing block and item data into this server instance
+[22:56:30] [Server thread/INFO] [FML]: Applying holder lookups
+[22:56:30] [Server thread/WARN] [FML]: Unable to lookup Carnival:carnivalToken for public static com.dancarlyon.carnival.item.ItemCarnival com.dancarlyon.carnival.init.ModItems.carnivalToken. Is there something wrong with the registry?
+[22:56:30] [Server thread/INFO] [FML]: Holder lookups applied
+[22:56:31] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@5b57358d)
+[22:56:31] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@5b57358d)
+[22:56:31] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@5b57358d)
+[22:56:31] [Server thread/INFO]: Preparing start region for level 0
+[22:56:31] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
+[22:56:31] [Server thread/INFO] [Carnival]: Bounding Box: (-314, 3, 564; -295, 17, 583)
+[22:56:31] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
+[22:56:31] [Server thread/INFO] [Carnival]: Bounding Box: (-312, 3, 527; -293, 17, 546)
+[22:56:32] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
+[22:56:32] [Server thread/INFO] [Carnival]: Bounding Box: (-314, 3, 564; -295, 17, 583)
+[22:56:32] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
+[22:56:32] [Server thread/INFO] [Carnival]: Bounding Box: (-312, 3, 527; -293, 17, 546)
+[22:56:32] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
+[22:56:32] [Server thread/INFO] [Carnival]: Bounding Box: (-314, 3, 564; -295, 17, 583)
+[22:56:32] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
+[22:56:32] [Server thread/INFO] [Carnival]: Bounding Box: (-314, 3, 564; -295, 17, 583)
+[22:56:32] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
+[22:56:32] [Server thread/INFO] [Carnival]: Bounding Box: (-312, 3, 527; -293, 17, 546)
+[22:56:32] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
+[22:56:32] [Server thread/INFO] [Carnival]: Bounding Box: (-312, 3, 527; -293, 17, 546)
+[22:56:32] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
+[22:56:32] [Server thread/INFO] [Carnival]: Bounding Box: (-314, 3, 564; -295, 17, 583)
+[22:56:32] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
+[22:56:32] [Server thread/INFO] [Carnival]: Bounding Box: (-314, 3, 564; -295, 17, 583)
+[22:56:32] [Server thread/INFO]: Changing view distance to 12, from 10
+[22:56:32] [Netty Client IO #0/INFO] [FML]: Server protocol version 1
+[22:56:32] [Netty IO #1/INFO] [FML]: Client protocol version 1
+[22:56:32] [Netty IO #1/INFO] [FML]: Client attempting to join with 4 mods : mcp@9.05,FML@7.10.25.1208,Forge@10.13.0.1208,Carnival@1.7.10-1.0
+[22:56:32] [Netty IO #1/INFO] [FML]: Attempting connection with missing mods [] at CLIENT
+[22:56:32] [Netty Client IO #0/INFO] [FML]: Attempting connection with missing mods [] at SERVER
+[22:56:32] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[22:56:32] [Server thread/INFO]: Player171[local:E:e2c52e35] logged in with entity id 20 at (-217.5, 4.0, 435.5)
+[22:56:32] [Server thread/INFO]: Player171 joined the game
+[22:56:32] [Client thread/INFO] [FML]: [Client thread] Client side modded connection established
+[22:56:46] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
+[22:56:46] [Server thread/INFO] [Carnival]: Bounding Box: (-465, 3, 298; -446, 17, 317)
+[22:56:46] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
+[22:56:46] [Server thread/INFO] [Carnival]: Bounding Box: (-465, 3, 298; -446, 17, 317)
+[22:56:49] [Server thread/INFO] [Carnival]: Bound Box maxY: 17
+[22:56:49] [Server thread/INFO] [Carnival]: Bounding Box: (-465, 3, 298; -446, 17, 317)
+[22:57:19] [Server thread/INFO]: Saving and pausing game...
+[22:57:19] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:57:19] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:57:19] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:57:21] [Server thread/INFO]: Stopping server
+[22:57:21] [Server thread/INFO]: Saving players
+[22:57:21] [Server thread/INFO]: Saving worlds
+[22:57:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:57:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:57:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:57:22] [Server thread/INFO] [FML]: Unloading dimension 0
+[22:57:22] [Server thread/INFO] [FML]: Unloading dimension -1
+[22:57:22] [Server thread/INFO] [FML]: Unloading dimension 1
+[22:57:22] [Server thread/INFO] [FML]: Applying holder lookups
+[22:57:22] [Server thread/WARN] [FML]: Unable to lookup Carnival:carnivalToken for public static com.dancarlyon.carnival.item.ItemCarnival com.dancarlyon.carnival.init.ModItems.carnivalToken. Is there something wrong with the registry?
+[22:57:22] [Server thread/INFO] [FML]: Holder lookups applied
+[22:57:24] [Client thread/INFO]: Stopping!
 
 SoundSystem shutting down...
     Author: Paul Lamb, www.paulscode.com
@@ -187,4 +177,4 @@ SoundSystem shutting down...
 
 BUILD SUCCESSFUL
 
-Total time: 3 mins 4.501 secs
+Total time: 1 mins 33.999 secs
