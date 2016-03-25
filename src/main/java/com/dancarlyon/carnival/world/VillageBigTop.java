@@ -3,6 +3,7 @@ package com.dancarlyon.carnival.world;
 
 import com.dancarlyon.carnival.utility.LogHelper;
 import cpw.mods.fml.common.registry.VillagerRegistry;
+import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.ChunkCoordinates;
@@ -281,7 +282,7 @@ public class VillageBigTop extends StructureVillagePieces.Village
         this.fillWithBlocks(world, box, 15,6,4, 15,6,4, Blocks.wool, Blocks.wool, false);
         this.fillWithBlocks(world, box, 16,6,4, 20,6,4, Blocks.air, Blocks.air, false);
 
-        //Y 5 Z 5
+        //Y 6 Z 5
         this.fillWithBlocks(world, box, 0,6,5, 3,6,5, Blocks.air, Blocks.air, false);
         this.fillWithBlocks(world, box, 4,6,5, 5,6,5, Blocks.wool, Blocks.wool, false);
         this.fillWithBlocks(world, box, 6,6,5, 14,6,5, Blocks.air, Blocks.air, false);
@@ -359,15 +360,12 @@ public class VillageBigTop extends StructureVillagePieces.Village
         this.fillWithBlocks(world, box, 17,6,15, 20,6,15, Blocks.air, Blocks.air, false);
 
         //Y 6 Z 16
-        this.fillWithBlocks(world, box, 0,6,16, 4,6,16, Blocks.air, Blocks.air, false);
         this.fillWithBlocks(world, box, 5,6,16, 5,6,16, Blocks.wool, Blocks.wool, false);
         this.fillWithMetadataBlocks(world, box, 6,6,16, 6,6,16, Blocks.wool,14, Blocks.wool,14, false);
         this.fillWithBlocks(world, box, 7,6,16, 7,6,16, Blocks.wool, Blocks.wool, false);
-        this.fillWithBlocks(world, box, 8,6,16, 12,6,16, Blocks.air, Blocks.air, false);
         this.fillWithBlocks(world, box, 13,6,16, 13,6,16, Blocks.wool, Blocks.wool, false);
         this.fillWithMetadataBlocks(world, box, 14,6,16, 14,6,16, Blocks.wool,14, Blocks.wool,14, false);
         this.fillWithBlocks(world, box, 15,6,16, 15,6,16, Blocks.wool, Blocks.wool, false);
-        this.fillWithBlocks(world, box, 16,6,16, 20,6,16, Blocks.air, Blocks.air, false);
 
         //Y 6 Z 17
         this.fillWithBlocks(world, box, 0,6,17, 5,6,17, Blocks.air, Blocks.air, false);
@@ -393,6 +391,159 @@ public class VillageBigTop extends StructureVillagePieces.Village
 
         //Y 6 Z 19-20
         this.fillWithBlocks(world, box, 0,6,19, 20,6,20, Blocks.air, Blocks.air, false);
+
+        //Y 7 Z 4-16 no air blocks trial
+        this.fillWithMetadataBlocks(world, box, 8,7,4, 8,7,4, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 9,7,4, 9,7,4, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 10,7,4, 10,7,4, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 11,7,4, 11,7,4, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 12,7,4, 12,7,4, Blocks.wool,14, Blocks.wool,14, false);
+
+        this.fillWithMetadataBlocks(world, box, 6,7,5, 6,7,5, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 7,7,5, 7,7,5, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 8,7,5, 8,7,5, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 9,7,5, 9,7,5, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 10,7,5, 10,7,5, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 11,7,5, 11,7,5, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 12,7,5, 12,7,5, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 13,7,5, 13,7,5, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 14,7,5, 14,7,5, Blocks.wool,14, Blocks.wool,14, false);
+
+        this.fillWithMetadataBlocks(world, box, 5,7,6, 6,7,6, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 7,7,6, 7,7,6, Blocks.wool, Blocks.wool, false);
+        this.fillWithBlocks(world, box, 13,7,6, 13,7,6, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 14,7,6, 15,7,6, Blocks.wool,14, Blocks.wool,14, false);
+
+        this.fillWithBlocks(world, box, 5,7,7, 6,7,7, Blocks.wool, Blocks.wool, false);
+        this.fillWithBlocks(world, box, 14,7,7, 15,7,7, Blocks.wool, Blocks.wool, false);
+
+        this.fillWithMetadataBlocks(world, box, 4,7,8, 5,7,8, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithMetadataBlocks(world, box, 15,7,8, 16,7,8, Blocks.wool,14, Blocks.wool,14, false);
+
+        this.fillWithBlocks(world, box, 4,7,9, 5,7,9, Blocks.wool, Blocks.wool, false);
+        this.fillWithBlocks(world, box, 15,7,9, 16,7,9, Blocks.wool, Blocks.wool, false);
+
+        this.fillWithMetadataBlocks(world, box, 4,7,10, 5,7,10, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithMetadataBlocks(world, box, 15,7,10, 16,7,10, Blocks.wool,14, Blocks.wool,14, false);
+
+        this.fillWithBlocks(world, box, 4,7,11, 5,7,11, Blocks.wool, Blocks.wool, false);
+        this.fillWithBlocks(world, box, 15,7,11, 16,7,11, Blocks.wool, Blocks.wool, false);
+
+        this.fillWithMetadataBlocks(world, box, 4,7,12, 5,7,12, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithMetadataBlocks(world, box, 15,7,12, 16,7,12, Blocks.wool,14, Blocks.wool,14, false);
+
+        this.fillWithBlocks(world, box, 5,7,13, 6,7,13, Blocks.wool, Blocks.wool, false);
+        this.fillWithBlocks(world, box, 14,7,13, 15,7,13, Blocks.wool, Blocks.wool, false);
+
+        this.fillWithMetadataBlocks(world, box, 5,7,14, 6,7,14, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 7,7,14, 7,7,14, Blocks.wool, Blocks.wool, false);
+        this.fillWithBlocks(world, box, 13,7,14, 13,7,14, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 14,7,14, 15,7,14, Blocks.wool,14, Blocks.wool,14, false);
+
+        this.fillWithMetadataBlocks(world, box, 6,7,15, 6,7,15, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 7,7,15, 7,7,15, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 8,7,15, 8,7,15, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 9,7,15, 9,7,15, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 10,7,15, 10,7,15, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 11,7,15, 11,7,15, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 12,7,15, 12,7,15, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 13,7,15, 13,7,15, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 14,7,15, 14,7,15, Blocks.wool,14, Blocks.wool,14, false);
+
+        this.fillWithMetadataBlocks(world, box, 8,7,16, 8,7,16, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 9,7,16, 9,7,16, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 10,7,16, 10,7,16, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 11,7,16, 11,7,16, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 12,7,16, 12,7,16, Blocks.wool,14, Blocks.wool,14, false);
+
+        //Y 8 no air
+        this.fillWithMetadataBlocks(world, box, 8,8,6, 8,8,6, Blocks.wool,14,Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 9,8,6, 9,8,6, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 10,8,6, 10,8,6, Blocks.wool,14,Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 11,8,6, 11,8,6, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 12,8,6, 12,8,6, Blocks.wool,14,Blocks.wool,14, false);
+
+        this.fillWithBlocks(world, box, 7,8,7, 7,8,7, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 8,8,7, 8,8,7, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 9,8,7, 9,8,7, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 10,8,7, 10,8,7, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 11,8,7, 11,8,7, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 12,8,7, 12,8,7, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 13,8,7, 13,8,7, Blocks.wool, Blocks.wool, false);
+
+        this.fillWithMetadataBlocks(world, box, 6,8,8, 8,8,8, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithMetadataBlocks(world, box, 12,8,8, 14,8,8, Blocks.wool,14, Blocks.wool,14, false);
+
+        this.fillWithBlocks(world, box, 6,8,9, 7,8,9, Blocks.wool, Blocks.wool, false);
+        this.fillWithBlocks(world, box, 13,8,9, 14,8,9, Blocks.wool, Blocks.wool, false);
+
+        this.fillWithMetadataBlocks(world, box, 6,8,10, 7,8,10, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithMetadataBlocks(world, box, 13,8,10, 14,8,10, Blocks.wool,14, Blocks.wool,14, false);
+
+        this.fillWithBlocks(world, box, 6,8,11, 7,8,11, Blocks.wool, Blocks.wool, false);
+        this.fillWithBlocks(world, box, 13,8,11, 14,8,11, Blocks.wool, Blocks.wool, false);
+
+        this.fillWithMetadataBlocks(world, box, 6,8,12, 8,8,12, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithMetadataBlocks(world, box, 12,8,12, 14,8,12, Blocks.wool,14, Blocks.wool,14, false);
+
+        this.fillWithBlocks(world, box, 7,8,13, 7,8,13, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 8,8,13, 8,8,13, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 9,8,13, 9,8,13, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 10,8,13, 10,8,13, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 11,8,13, 11,8,13, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 12,8,13, 12,8,13, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 13,8,13, 13,8,13, Blocks.wool, Blocks.wool, false);
+
+        this.fillWithMetadataBlocks(world, box, 8,8,14, 8,8,14, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 9,8,14, 9,8,14, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 10,8,14, 10,8,14, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 11,8,14, 11,8,14, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 12,8,14, 12,8,14, Blocks.wool,14, Blocks.wool,14, false);
+
+        //Y 9
+        this.fillWithBlocks(world, box, 9,9,8, 9,9,8, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 10,9,8, 10,9,8, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 11,9,8, 11,9,8, Blocks.wool, Blocks.wool, false);
+
+        this.fillWithBlocks(world, box, 8,9,9, 9,9,9, Blocks.wool, Blocks.wool, false);
+        this.fillWithBlocks(world, box, 11,9,9, 12,9,9, Blocks.wool, Blocks.wool, false);
+
+        this.fillWithMetadataBlocks(world, box, 8,9,10, 8,9,10, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithMetadataBlocks(world, box, 12,9,10, 12,9,10, Blocks.wool,14, Blocks.wool,14, false);
+
+        this.fillWithBlocks(world, box, 8,9,11, 9,9,11, Blocks.wool, Blocks.wool, false);
+        this.fillWithBlocks(world, box, 11,9,11, 12,9,11, Blocks.wool, Blocks.wool, false);
+
+        this.fillWithBlocks(world, box, 9,9,12, 9,9,12, Blocks.wool, Blocks.wool, false);
+        this.fillWithMetadataBlocks(world, box, 10,9,12, 10,9,12, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 11,9,12, 11,9,12, Blocks.wool, Blocks.wool, false);
+
+        //Y 10
+        this.fillWithMetadataBlocks(world, box, 10,10,9, 10,10,9, Blocks.wool,14, Blocks.wool,14, false);
+
+        this.fillWithMetadataBlocks(world, box, 9,10,10, 9,10,10, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 10,10,10, 10,10,10, Blocks.glowstone, Blocks.glowstone, false);
+        this.fillWithMetadataBlocks(world, box, 11,10,10, 11,10,10, Blocks.wool,14, Blocks.wool,14, false);
+
+        this.fillWithMetadataBlocks(world, box, 10,10,11, 10,10,11, Blocks.wool,14, Blocks.wool,14, false);
+
+        //Y 11
+        this.fillWithBlocks(world, box, 10,11,10, 10,11,10, Blocks.fence, Blocks.fence, false);
+
+        //Y 12
+        this.fillWithBlocks(world, box, 10,12,10, 10,12,10, Blocks.fence, Blocks.fence, false);
+
+        //Y 13
+        this.fillWithBlocks(world, box, 10,13,10, 10,13,10, Blocks.fence, Blocks.fence, false);
+        this.fillWithMetadataBlocks(world, box, 11,13,10, 11,13,10, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 12,13,10, 12,13,10, Blocks.wool, Blocks.wool, false);
+
+        //Y 14
+        this.fillWithMetadataBlocks(world, box, 10,14,10, 10,14,10, Blocks.wool,14, Blocks.wool,14, false);
+        this.fillWithBlocks(world, box, 11,14,10, 11,14,10, Blocks.wool, Blocks.wool, false);
+
+
+
 
 
         /*this.fillWithMetadataBlocks(world, box, 0,0,0, 0,10,0, Blocks.Blocks.wool,14, Blocks.Blocks.wool,14, false);
