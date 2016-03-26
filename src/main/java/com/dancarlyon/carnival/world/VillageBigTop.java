@@ -1,23 +1,15 @@
 package com.dancarlyon.carnival.world;
 
 
-import com.dancarlyon.carnival.utility.LogHelper;
-import cpw.mods.fml.common.registry.VillagerRegistry;
-import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
-import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.util.ChunkCoordinates;
-import net.minecraft.util.EnumFacing;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.structure.StructureBoundingBox;
 import net.minecraft.world.gen.structure.StructureComponent;
 import net.minecraft.world.gen.structure.StructureVillagePieces;
-import net.minecraft.world.gen.structure.StructureVillagePieces.PieceWeight;
 import net.minecraft.world.gen.structure.StructureVillagePieces.Start;
 import cpw.mods.fml.common.registry.VillagerRegistry.IVillageCreationHandler;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -46,18 +38,9 @@ public class VillageBigTop extends StructureVillagePieces.Village
             }
             boundingBox.offset(0, groundLevel - boundingBox.maxY+14-1, 0);
         }
-        LogHelper.info("Bound Box maxY: "+boundingBox.maxY);
-        LogHelper.info("Bounding Box: "+boundingBox.toString());
+
         //Empty
         this.fillWithBlocks(world, box, 0,0,0, 20,15,20, Blocks.air, Blocks.air, false);
-
-        /*this.fillWithBlocks(world, box, 1,1,3, 1,4,3, Blocks.sandstone, Blocks.sandstone, false);
-        this.fillWithBlocks(world, box, 1,1,8, 1,6,8, Blocks.sandstone, Blocks.sandstone, false);
-        this.fillWithBlocks(world, box, 9,1,3, 9,6,3, Blocks.sandstone, Blocks.sandstone, false);
-        this.fillWithBlocks(world, box, 9,1,8, 9,6,8, Blocks.sandstone, Blocks.sandstone, false);
-        this.fillWithBlocks(world, box, 1,4,3, 9,4,8, Blocks.sandstone, Blocks.sandstone, false);
-        this.fillWithBlocks(world, box, 6,5,3, 6,7,3, Blocks.sandstone, Blocks.sandstone, false);
-        this.fillWithBlocks(world, box, 1,5,5, 1,6,5, Blocks.sandstone, Blocks.sandstone, false);*/
 
         //Floor Include outside Blocks.grass and Blocks.sand
         //Y level 0
@@ -457,10 +440,6 @@ public class VillageBigTop extends StructureVillagePieces.Village
         this.fillWithBlocks(world, box, 9,4,16, 9,4,16, Blocks.torch, Blocks.torch, false);
         this.fillWithBlocks(world, box, 11,4,16, 11,4,16, Blocks.torch, Blocks.torch, false);
 
-
-        /*this.fillWithMetadataBlocks(world, box, 0,0,0, 0,10,0, Blocks.Blocks.wool,14, Blocks.Blocks.wool,14, false);
-        this.fillWithBlocks(world, box, 1,0,1, 1,10,1, Blocks.Blocks.wool, Blocks.Blocks.wool, false);*/
-
         this.spawnVillagers(world, box, 4, 1, 2, 1);
         return true;
     }
@@ -476,7 +455,7 @@ public class VillageBigTop extends StructureVillagePieces.Village
         @Override
         public StructureVillagePieces.PieceWeight getVillagePieceWeight(Random random, int i)
         {
-            return new StructureVillagePieces.PieceWeight(VillageBigTop.class, 15, MathHelper.getRandomIntegerInRange(random, 0 + i, 1 + i));
+            return new StructureVillagePieces.PieceWeight(VillageBigTop.class, 35, MathHelper.getRandomIntegerInRange(random, 0 + i, 1 + i));
         }
         @Override
         public Class<?> getComponentClass()
@@ -484,6 +463,5 @@ public class VillageBigTop extends StructureVillagePieces.Village
             return VillageBigTop.class;
         }
     }
-
 
 }
