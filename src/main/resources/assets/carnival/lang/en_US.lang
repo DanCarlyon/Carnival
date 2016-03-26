@@ -24,5 +24,10 @@ item.carnival:cyanide_bottle.name=Epic Bottle of Cyanide
 
 item.carnival:candy_floss.name=Candy Floss
 
+item.carnival:flour.name=Flour
+item.carnival:raw_corn_dog.name=Raw Corn Dog
+item.carnival:corn_dog.name=Corn Dog
+item.carnival:batter_bucket.name=Bucket of Batter
+
 #Tiles
 tile.carnival:swordinstone.name=The Sword in The Stone

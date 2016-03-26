@@ -15,9 +15,9 @@ import java.util.Random;
 
 public class VillageBigTop extends StructureVillagePieces.Village
 {
-    /*public VillageBigTop()
+    public VillageBigTop()
     {
-    }*/
+    }
 
     public VillageBigTop(Start villagePiece, int par2, Random par3Random, StructureBoundingBox par4StructureBoundingBox, int par5)
     {
@@ -455,7 +455,7 @@ public class VillageBigTop extends StructureVillagePieces.Village
         @Override
         public StructureVillagePieces.PieceWeight getVillagePieceWeight(Random random, int i)
         {
-            return new StructureVillagePieces.PieceWeight(VillageBigTop.class, 35, MathHelper.getRandomIntegerInRange(random, 0 + i, 1 + i));
+            return new StructureVillagePieces.PieceWeight(VillageBigTop.class, 35, MathHelper.getRandomIntegerInRange(random, i, 1 + i));
         }
         @Override
         public Class<?> getComponentClass()
