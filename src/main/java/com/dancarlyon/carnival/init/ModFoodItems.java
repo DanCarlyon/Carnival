@@ -1,6 +1,8 @@
 package com.dancarlyon.carnival.init;
 
 import com.dancarlyon.carnival.item.*;
+import com.dancarlyon.carnival.item.ItemGreenSnowCone;
+import com.dancarlyon.carnival.item.ItemLightBlueSnowCone;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ModFoodItems
@@ -26,6 +28,16 @@ public class ModFoodItems
     public static final FoodItemCarnival cornDog = new ItemCornDog();
 
     public static final FoodItemCarnival plainSnowCone = new ItemPlainSnowCone();
+    public static final FoodItemCarnival redSnowCone = new ItemRedSnowCone();
+    public static final FoodItemCarnival blueSnowCone = new ItemBlueSnowCone();
+    public static final FoodItemCarnival greenSnowCone = new ItemGreenSnowCone();
+    public static final FoodItemCarnival lightBlueSnowCone = new ItemLightBlueSnowCone();
+
+    public static final FoodItemCarnival limeSnowCone = new ItemLimeSnowCone();
+    public static final FoodItemCarnival magentaSnowCone = new ItemMagentaSnowCone();
+    public static final FoodItemCarnival orangeSnowCone = new ItemOrangeSnowCone();
+    public static final FoodItemCarnival purpleSnowCone = new ItemPurpleSnowCone();
+    public static final FoodItemCarnival yellowSnowCone = new ItemYellowSnowCone();
 
     public static void init()
     {
@@ -48,5 +60,15 @@ public class ModFoodItems
         GameRegistry.registerItem(candyFloss, "candy_floss");
         GameRegistry.registerItem(cornDog, "corn_dog");
         GameRegistry.registerItem(plainSnowCone, "plain_snow_cone");
+        GameRegistry.registerItem(redSnowCone, "red_snow_cone");
+        GameRegistry.registerItem(blueSnowCone, "blue_snow_cone");
+        GameRegistry.registerItem(greenSnowCone, "green_snow_cone");
+        GameRegistry.registerItem(lightBlueSnowCone, "lightblue_snow_cone");
+
+        GameRegistry.registerItem(limeSnowCone, "lime_snow_cone");
+        GameRegistry.registerItem(magentaSnowCone, "magenta_snow_cone");
+        GameRegistry.registerItem(orangeSnowCone, "orange_snow_cone");
+        GameRegistry.registerItem(purpleSnowCone, "purple_snow_cone");
+        GameRegistry.registerItem(yellowSnowCone, "yellow_snow_cone");
     }
 }

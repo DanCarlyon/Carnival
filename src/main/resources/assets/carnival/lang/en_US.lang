@@ -29,6 +29,15 @@ item.carnival:raw_corn_dog.name=Raw Corn Dog
 item.carnival:corn_dog.name=Corn Dog
 item.carnival:batter_bucket.name=Bucket of Batter
 item.carnival:plain_snow_cone.name=Plain Snow Cone
+item.carnival:red_snow_cone.name=Red Snow Cone
+item.carnival:blue_snow_cone.name=Blue Snow Cone
+item.carnival:green_snow_cone.name=Green Snow Cone
+item.carnival:lightblue_snow_cone.name=Light Blue Snow Cone
+item.carnival:lime_snow_cone.name=Lime Snow Cone
+item.carnival:magenta_snow_cone.name=Magenta Snow Cone
+item.carnival:orange_snow_cone.name=Orange Snow Cone
+item.carnival:purple_snow_cone.name=Purple Snow Cone
+item.carnival:yellow_snow_cone.name=Yellow Snow Cone
 
 #Tiles
 tile.carnival:swordinstone.name=The Sword in The Stone

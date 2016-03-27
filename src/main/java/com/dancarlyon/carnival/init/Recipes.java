@@ -29,6 +29,16 @@ public class Recipes
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.icing), new ItemStack(Items.sugar), new ItemStack(Items.water_bucket));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.batterBucket), new ItemStack(ModItems.carnivalFlour), new ItemStack(ModItems.carnivalFlour), new ItemStack(Items.water_bucket));
 
+        GameRegistry.addShapelessRecipe(new ItemStack(ModFoodItems.redSnowCone), new ItemStack(ModFoodItems.plainSnowCone), new ItemStack(Items.dye, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModFoodItems.blueSnowCone), new ItemStack(ModFoodItems.plainSnowCone), new ItemStack(Items.dye, 1, 6));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModFoodItems.greenSnowCone), new ItemStack(ModFoodItems.plainSnowCone), new ItemStack(Items.dye, 1, 2));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModFoodItems.lightBlueSnowCone), new ItemStack(ModFoodItems.plainSnowCone), new ItemStack(Items.dye, 1, 12));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModFoodItems.magentaSnowCone), new ItemStack(ModFoodItems.plainSnowCone), new ItemStack(Items.dye, 1, 13));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModFoodItems.orangeSnowCone), new ItemStack(ModFoodItems.plainSnowCone), new ItemStack(Items.dye, 1, 14));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModFoodItems.purpleSnowCone), new ItemStack(ModFoodItems.plainSnowCone), new ItemStack(Items.dye, 1, 5));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModFoodItems.yellowSnowCone), new ItemStack(ModFoodItems.plainSnowCone), new ItemStack(Items.dye, 1, 11));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModFoodItems.limeSnowCone), new ItemStack(ModFoodItems.plainSnowCone), new ItemStack(Items.dye, 1, 10));
+
         //Smelting
         GameRegistry.addSmelting(new ItemStack(ModFoodItems.rawDonut), new ItemStack(ModFoodItems.plainDonut), 5);
         GameRegistry.addSmelting(new ItemStack(ModFoodItems.rawBacon), new ItemStack(ModFoodItems.bacon), 1);
