@@ -28,6 +28,7 @@ item.carnival:flour.name=Flour
 item.carnival:raw_corn_dog.name=Raw Corn Dog
 item.carnival:corn_dog.name=Corn Dog
 item.carnival:batter_bucket.name=Bucket of Batter
+item.carnival:plain_snow_cone.name=Plain Snow Cone
 
 #Tiles
 tile.carnival:swordinstone.name=The Sword in The Stone

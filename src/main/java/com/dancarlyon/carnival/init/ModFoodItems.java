@@ -25,6 +25,8 @@ public class ModFoodItems
 
     public static final FoodItemCarnival cornDog = new ItemCornDog();
 
+    public static final FoodItemCarnival plainSnowCone = new ItemPlainSnowCone();
+
     public static void init()
     {
         GameRegistry.registerItem(rawDonut, "raw_Donut");
@@ -45,5 +47,6 @@ public class ModFoodItems
 
         GameRegistry.registerItem(candyFloss, "candy_floss");
         GameRegistry.registerItem(cornDog, "corn_dog");
+        GameRegistry.registerItem(plainSnowCone, "plain_snow_cone");
     }
 }

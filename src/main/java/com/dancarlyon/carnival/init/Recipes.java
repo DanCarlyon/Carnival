@@ -3,6 +3,7 @@ package com.dancarlyon.carnival.init;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
@@ -18,6 +19,7 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModFoodItems.candyFloss, 1), "sss", "sws", " w ", 's', new ItemStack(Items.sugar), 'w', new ItemStack(Items.stick));
         GameRegistry.addRecipe(new ItemStack(ModItems.rawCornDog, 1), " b ", " m ", " s ", 'b', new ItemStack(ModItems.batterBucket), 'm', new ItemStack(ModFoodItems.rawHotdog), 's', new ItemStack(Items.stick));
         GameRegistry.addRecipe(new ItemStack(ModItems.carnivalFlour, 3), " c ", " w ", " s ", 'c', new ItemStack(Blocks.cobblestone), 'w', new ItemStack(Items.wheat), 's', new ItemStack(Blocks.stone_slab));
+        GameRegistry.addRecipe(new ItemStack(ModFoodItems.plainSnowCone, 1), " s ", "p p", " p ", 's', new ItemStack(Items.snowball), 'p', new ItemStack(Items.paper));
 
         //Shapeless
         GameRegistry.addShapelessRecipe(new ItemStack(ModFoodItems.icedDonut), new ItemStack(ModItems.icing), new ItemStack(ModFoodItems.plainDonut));

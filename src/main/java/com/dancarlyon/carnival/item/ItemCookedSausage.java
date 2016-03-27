@@ -4,7 +4,7 @@ public class ItemCookedSausage extends FoodItemCarnival
 {
     public ItemCookedSausage()
     {
-        super(2, 0.1F, false);
+        super(2, 0.1F, true);
         this.setUnlocalizedName("cooked_hotdog");
     }
 }
