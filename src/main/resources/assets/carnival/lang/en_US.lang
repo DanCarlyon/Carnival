@@ -41,5 +41,7 @@ item.carnival:yellow_snow_cone.name=Yellow Snow Cone
 
 item.carnival:candy_apple.name=Candy Apple
 
+item.carnival:carnival_ticket.name=Carnival Ticket
+
 #Tiles
 tile.carnival:swordinstone.name=The Sword in The Stone

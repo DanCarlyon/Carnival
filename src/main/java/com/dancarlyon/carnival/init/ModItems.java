@@ -13,6 +13,7 @@ public class ModItems
     public static final ItemCarnival carnivalFlour = new ItemCarnivalFlour();
     public static final ItemCarnival rawCornDog = new ItemRawCornDog();
     public static final ItemCarnival batterBucket = new ItemBatterBucket();
+    public static final ItemCarnival carnivalTicket = new ItemCarnivalTicket();
 
     public static void init()
     {
@@ -22,6 +23,7 @@ public class ModItems
         GameRegistry.registerItem(carnivalFlour, "carnival_flour");
         GameRegistry.registerItem(rawCornDog, "raw_corn_dog");
         GameRegistry.registerItem(batterBucket, "batter_bucket");
+        GameRegistry.registerItem(carnivalTicket, "carnival_ticket");
     }
 
 }
