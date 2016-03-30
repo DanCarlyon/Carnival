@@ -21,6 +21,8 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModItems.carnivalFlour, 3), " c ", " w ", " s ", 'c', new ItemStack(Blocks.cobblestone), 'w', new ItemStack(Items.wheat), 's', new ItemStack(Blocks.stone_slab));
         GameRegistry.addRecipe(new ItemStack(ModFoodItems.plainSnowCone, 1), " s ", "p p", " p ", 's', new ItemStack(Items.snowball), 'p', new ItemStack(Items.paper));
 
+        GameRegistry.addRecipe(new ItemStack(ModFoodItems.candyApple, 1), "sss", "sas", " w ", 's', new ItemStack(Items.sugar), 'a', new ItemStack(Items.apple), 'w', new ItemStack(Items.stick));
+
         //Shapeless
         GameRegistry.addShapelessRecipe(new ItemStack(ModFoodItems.icedDonut), new ItemStack(ModItems.icing), new ItemStack(ModFoodItems.plainDonut));
         GameRegistry.addShapelessRecipe(new ItemStack(ModFoodItems.sprinklesDonut), new ItemStack(ModFoodItems.icedDonut), new ItemStack(ModItems.sprinkles));
