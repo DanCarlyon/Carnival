@@ -34,6 +34,8 @@ public class Carnival
 
         ModBlocks.init();
 
+        //ModArmor.init();
+
         LogHelper.info("Pre Initialization Checks Complete!");
     }
 

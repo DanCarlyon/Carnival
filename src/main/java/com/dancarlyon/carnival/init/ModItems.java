@@ -24,6 +24,7 @@ public class ModItems
         GameRegistry.registerItem(rawCornDog, "raw_corn_dog");
         GameRegistry.registerItem(batterBucket, "batter_bucket");
         GameRegistry.registerItem(carnivalTicket, "carnival_ticket");
+
     }
 
 }
