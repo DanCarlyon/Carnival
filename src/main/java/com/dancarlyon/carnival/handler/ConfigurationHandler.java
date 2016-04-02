@@ -17,6 +17,7 @@ public class ConfigurationHandler
     public static int cyanideHealthDuration = 0;
     public static int cyanidePoisonDuration = 0;
     public static int giantwaffleHealDuration = 0;
+    public static int pretzelSpeedDuration = 0;
 
     public static void init(File configFile)
     {
@@ -46,6 +47,8 @@ public class ConfigurationHandler
         cyanidePoisonDuration = configuration.getInt("Cyanide(Epic) Bottle Poison Duration", "FoodEffectDurations", 120, 0, 240, "Number of seconds for Cyanide Regeneration. Min: 0, Max: 240");
 
         giantwaffleHealDuration = configuration.getInt("Giant Waffle Heal Duration", "FoodEffectDurations", 60, 0, 120, "Number of seconds for Giant Waffle Heal. Min: 0, Max: 240");
+
+        pretzelSpeedDuration = configuration.getInt("Pretzel Speed Duration", "FoodEffectDurations", 10, 0, 60, "Number of seconds for speed to last after eating a pretzel");
 
         if (configuration.hasChanged())
         {

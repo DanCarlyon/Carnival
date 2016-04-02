@@ -40,6 +40,7 @@ public class ModFoodItems
     public static final FoodItemCarnival yellowSnowCone = new ItemYellowSnowCone();
 
     public static final FoodItemCarnival candyApple = new ItemCandyApple();
+    public static final FoodItemCarnival pretzel = new ItemPretzel();
 
     public static void init()
     {
@@ -74,5 +75,6 @@ public class ModFoodItems
         GameRegistry.registerItem(yellowSnowCone, "yellow_snow_cone");
 
         GameRegistry.registerItem(candyApple, "candy_apple");
+        GameRegistry.registerItem(pretzel, "pretzel");
     }
 }
