@@ -1,12 +1,15 @@
 package com.dancarlyon.carnival.item;
 
 
+import com.dancarlyon.carnival.init.ModArmor;
 import com.dancarlyon.carnival.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
+
 
 public class ArmorItemCarnival extends ItemArmor {
 
@@ -36,5 +39,17 @@ public class ArmorItemCarnival extends ItemArmor {
     protected String getUnwrappedUnlocalizedName(String unlocalizedName)
     {
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
+    }
+
+    public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
+    {
+        if(stack.getItem() == ModArmor.baconHelmet || stack.getItem() == ModArmor.baconChest || stack.getItem() == ModArmor.baconBoots)
+        {
+            return Reference.MOD_ID + ":textures/models/bacon_layer_1.png";
+        } else if(stack.getItem() == ModArmor.baconLeggings) {
+            return Reference.MOD_ID + ":textures/models/bacon_layer_2.png";
+        } else {
+            return null;
+        }
     }
 }

@@ -6,7 +6,8 @@ public class ItemBaconLeggings extends ArmorItemCarnival {
 
     public ItemBaconLeggings()
     {
-        super(ItemArmor.ArmorMaterial.IRON, 2, 2);
+        //super(ItemArmor.ArmorMaterial.IRON, 2, 2);
+        super(ArmorMaterial.IRON, 2, 2);
         this.setUnlocalizedName("bacon_leggings");
     }
 
