@@ -43,7 +43,10 @@ item.carnival:pretzel.name=Pretzel
 
 item.carnival:carnival_ticket.name=Carnival Ticket
 
+item.carnival:bacon_helmet.name=Bacon Helmet
+item.carnival:bacon_chest.name=Bacon Chest Plate
 item.carnival:bacon_leggings.name=Bacon Leggings
+item.carnival:bacon_boots.name=Bacon Boots
 
 #Tiles
 tile.carnival:swordinstone.name=The Sword in The Stone
