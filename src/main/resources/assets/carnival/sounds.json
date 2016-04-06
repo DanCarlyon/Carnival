@@ -1,0 +1,8 @@
+{
+  "clown": {
+    "category": "neutral",
+    "sounds": [
+      "clown_hurt"
+    ]
+  }
+}
