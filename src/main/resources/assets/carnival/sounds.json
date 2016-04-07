@@ -1,8 +1,14 @@
 {
-  "clown": {
-    "category": "neutral",
+  "clown.hit": {
+    "category": "master",
     "sounds": [
-      "clown_hurt"
+      "clown_hit"
+    ]
+  },
+  "clown.die": {
+    "category": "master",
+    "sounds": [
+      "clown_die"
     ]
   }
 }

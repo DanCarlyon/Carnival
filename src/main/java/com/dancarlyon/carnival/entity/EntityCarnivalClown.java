@@ -3,11 +3,9 @@ package com.dancarlyon.carnival.entity;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.*;
 import net.minecraft.entity.monster.EntityMob;
+import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
-
-import static net.minecraft.client.audio.SoundCategory.BLOCKS;
-import static net.minecraftforge.client.event.RenderGameOverlayEvent.ElementType.HEALTH;
 
 public class EntityCarnivalClown extends EntityMob {
     public EntityCarnivalClown(World par1World)
@@ -20,7 +18,7 @@ public class EntityCarnivalClown extends EntityMob {
         this.tasks.addTask(5, new EntityAIWander(this, 0.8D));
         this.tasks.addTask(6, new EntityAIWatchClosest(this, EntityPlayer.class, 8.0F));
         this.tasks.addTask(6, new EntityAILookIdle(this));
-        this.targetTasks.addTask(1, new EntityAINearestAttackableTarget(this, EntityPlayer.class, 0, true));
+        this.targetTasks.addTask(1, new EntityAINearestAttackableTarget(this , EntityZombie.class, 0, false));
         this.targetTasks.addTask(2, new EntityAIHurtByTarget(this, false));
     }
 
@@ -28,25 +26,27 @@ public class EntityCarnivalClown extends EntityMob {
 
     protected String getLivingSound()
     {
-        return "mob.zombie.say";
+        return "";
     }
 
     @Override
     protected String getHurtSound()
     {
-        return "carnival:clown";
+        return "carnival:clown.hit";
     }
 
     @Override
     protected String getDeathSound()
     {
-        return "mob.zombie.death";
+        return "carnival:clown.die";
     }
 
     @Override
     protected void applyEntityAttributes()
     {
         super.applyEntityAttributes();
+        this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(5D);
+        this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(1D);
         /*this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setAttribute(THE HEALTH.0D);
         this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setAttribute(0.53000000417232513D);
         this.getEntityAttribute(SharedMonsterAttributes.attackDamage).setAttribute(ATTACKDAMAGE.0D);
