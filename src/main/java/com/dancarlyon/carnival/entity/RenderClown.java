@@ -7,17 +7,16 @@ import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.renderer.entity.RenderBiped;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityLiving;
 import net.minecraft.util.ResourceLocation;
 
-public class RenderClown extends RenderBiped {
-    public RenderClown(ModelBiped var1, float shadow) {
+public class RenderClown extends RenderLiving {
+    public RenderClown(ModelBase var1, float shadow) {
         super(var1, shadow);
     }
 
     @Override
     protected ResourceLocation getEntityTexture(Entity entity)
     {
-        return new ResourceLocation(Reference.MOD_ID + ":textures/models/carnival_clown.png");
+        return new ResourceLocation(Reference.MOD_ID + ":textures/models/CarnivalClown_texture.png");
     }
 }

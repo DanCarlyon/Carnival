@@ -1,6 +1,7 @@
 package com.dancarlyon.carnival;
 
 import com.dancarlyon.carnival.entity.EntityCarnivalClown;
+import com.dancarlyon.carnival.entity.ModelCarnivalClown;
 import com.dancarlyon.carnival.entity.RenderClown;
 import com.dancarlyon.carnival.handler.ConfigurationHandler;
 import com.dancarlyon.carnival.init.*;
@@ -15,6 +16,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.EntityRegistry;
+import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.world.biome.BiomeGenBase;
@@ -46,7 +48,7 @@ public class Carnival
         ModEntities.init();
 
         EntityRegistry.registerModEntity(EntityCarnivalClown.class, "carnival_clown", 1, this, 80, 3, true);
-        RenderingRegistry.registerEntityRenderingHandler(EntityCarnivalClown.class, new RenderClown(new ModelBiped(), 0.5F));
+        RenderingRegistry.registerEntityRenderingHandler(EntityCarnivalClown.class, new RenderClown(new ModelCarnivalClown(), 0.5F));
         EntityRegistry.addSpawn(EntityCarnivalClown.class, 1, 1, 3, EnumCreatureType.ambient, BiomeGenBase.plains);
 
         LogHelper.info("Pre Initialization Checks Complete!");
