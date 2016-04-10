@@ -49,7 +49,7 @@ public class Carnival
 
         EntityRegistry.registerModEntity(EntityCarnivalClown.class, "carnival_clown", 1, this, 80, 3, true);
         RenderingRegistry.registerEntityRenderingHandler(EntityCarnivalClown.class, new RenderClown(new ModelCarnivalClown(), 0.5F));
-        EntityRegistry.addSpawn(EntityCarnivalClown.class, 1, 1, 3, EnumCreatureType.ambient, BiomeGenBase.plains);
+        EntityRegistry.addSpawn(EntityCarnivalClown.class, 1, 1, 1, EnumCreatureType.creature, BiomeGenBase.plains);
 
         LogHelper.info("Pre Initialization Checks Complete!");
     }
