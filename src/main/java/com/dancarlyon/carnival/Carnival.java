@@ -19,6 +19,8 @@ import cpw.mods.fml.common.registry.EntityRegistry;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.world.biome.BiomeGenBase;
 
+import java.lang.reflect.Array;
+
 @Mod(modid = Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.MOD_VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class Carnival
 {
@@ -44,10 +46,6 @@ public class Carnival
         ModArmor.init();
 
         ModEntities.init();
-
-        EntityRegistry.registerModEntity(EntityCarnivalClown.class, "carnival_clown", 1, this, 80, 3, true);
-        RenderingRegistry.registerEntityRenderingHandler(EntityCarnivalClown.class, new RenderClown(new ModelCarnivalClown(), 0.5F));
-        EntityRegistry.addSpawn(EntityCarnivalClown.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.plains);
 
         LogHelper.info("Pre Initialization Checks Complete!");
     }
