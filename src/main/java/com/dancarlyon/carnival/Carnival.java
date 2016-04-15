@@ -16,8 +16,6 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.EntityRegistry;
-import net.minecraft.client.model.ModelBase;
-import net.minecraft.client.model.ModelBiped;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.world.biome.BiomeGenBase;
 
@@ -49,7 +47,7 @@ public class Carnival
 
         EntityRegistry.registerModEntity(EntityCarnivalClown.class, "carnival_clown", 1, this, 80, 3, true);
         RenderingRegistry.registerEntityRenderingHandler(EntityCarnivalClown.class, new RenderClown(new ModelCarnivalClown(), 0.5F));
-        EntityRegistry.addSpawn(EntityCarnivalClown.class, 1, 1, 1, EnumCreatureType.creature, BiomeGenBase.plains);
+        EntityRegistry.addSpawn(EntityCarnivalClown.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.plains);
 
         LogHelper.info("Pre Initialization Checks Complete!");
     }

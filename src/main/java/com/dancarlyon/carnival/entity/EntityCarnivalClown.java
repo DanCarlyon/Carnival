@@ -7,7 +7,7 @@ import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.world.World;
 
-public class EntityCarnivalClown extends EntityMob {
+public class EntityCarnivalClown extends EntityCreature {
 
 
     public EntityCarnivalClown(World par1World)
@@ -16,10 +16,11 @@ public class EntityCarnivalClown extends EntityMob {
 
         this.setSize(1.0F, 2.0F);
         this.tasks.addTask(1, new EntityAISwimming(this));
-        this.tasks.addTask(2, new EntityAIAttackOnCollide(this, EntityZombie.class, 1.0D, true));
-        this.tasks.addTask(3, new EntityAIWander(this, 1.5D));
-        this.targetTasks.addTask(1, new EntityAINearestAttackableTarget(this, EntityZombie.class, 0, true));
-        this.targetTasks.addTask(2, new EntityAIHurtByTarget(this, false));
+        this.tasks.addTask(2, new EntityAIAttackOnCollide(this, EntityZombie.class, 1.0D, false));
+        this.tasks.addTask(3, new EntityAIWander(this, 1.0D));
+        this.tasks.addTask(4, new EntityAIWatchClosest(this, EntityZombie.class, 8.0F));
+        this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, true));
+        this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityZombie.class, 0, true));
     }
 
     @Override
