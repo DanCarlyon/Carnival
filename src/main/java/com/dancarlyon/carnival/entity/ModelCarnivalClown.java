@@ -15,7 +15,7 @@ public class ModelCarnivalClown extends ModelBase {
     ModelRenderer leftleg;
     ModelRenderer lefthair;
 
-    static int startEntityId = 300;
+    static int startEntityId = 290;
 
     public ModelCarnivalClown()
     {
