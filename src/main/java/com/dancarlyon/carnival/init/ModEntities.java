@@ -1,9 +1,7 @@
 package com.dancarlyon.carnival.init;
 
 
-import com.dancarlyon.carnival.entity.EntityCarnivalClown;
-import com.dancarlyon.carnival.entity.ModelCarnivalClown;
-import com.dancarlyon.carnival.entity.RenderClown;
+import com.dancarlyon.carnival.entity.*;
 import com.dancarlyon.carnival.reference.Reference;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.registry.EntityRegistry;
@@ -22,5 +20,11 @@ public class ModEntities {
         EntityRegistry.addSpawn(EntityCarnivalClown.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.plains);
         ModelCarnivalClown.registerEntityEgg(EntityCarnivalClown.class, 0xffffff, 0xff0000);
         LanguageRegistry.instance().addStringLocalization("entity.Carnival.carnival_clown.name", "en_US", "Carnival Clown");
+
+        /*EntityRegistry.registerModEntity(EntityDethknight.class, "dethknight", 2, Reference.MOD_ID, 80, 3, true);
+        RenderingRegistry.registerEntityRenderingHandler(EntityDethknight.class, new RenderDethknight(new ModelDethknight(), 0.5F));
+        EntityRegistry.addSpawn(EntityDethknight.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.plains);
+        ModelCarnivalClown.registerEntityEgg(EntityDethknight.class, 0x000000, 0xff0000);
+        LanguageRegistry.instance().addStringLocalization("entity.Carnival.dethknight.name", "en_US", "Dethknight");*/
     }
 }

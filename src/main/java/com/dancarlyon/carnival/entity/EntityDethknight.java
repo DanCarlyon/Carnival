@@ -6,15 +6,15 @@ import net.minecraft.entity.ai.*;
 import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.world.World;
 
-public class EntityCarnivalClown extends EntityCreature {
+public class EntityDethknight extends EntityCreature {
 
 
-    public EntityCarnivalClown(World par1World)
+    public EntityDethknight(World par1World)
     {
         super(par1World);
         clearAITasks();
 
-        this.setSize(1.0F, 2.0F);
+        this.setSize(1.3F, 2.2F);
 
         this.tasks.addTask(0, new EntityAISwimming(this));
         this.tasks.addTask(1, new EntityAIAttackOnCollide(this, EntityZombie.class, 0.7D, true));
@@ -45,13 +45,13 @@ public class EntityCarnivalClown extends EntityCreature {
     @Override
     protected String getHurtSound()
     {
-        return "carnival:clown.hit";
+        return "";
     }
 
     @Override
     protected String getDeathSound()
     {
-        return "carnival:clown.die";
+        return "";
     }
 
     @Override
@@ -60,7 +60,6 @@ public class EntityCarnivalClown extends EntityCreature {
         super.applyEntityAttributes();
         this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(10.0D);
         this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.3D);
-        this.allowLeashing();
     }
 
     @Override
