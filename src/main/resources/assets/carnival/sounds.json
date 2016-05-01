@@ -10,5 +10,14 @@
     "sounds": [
       "clown_die"
     ]
+  },
+  "carnival_music": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "carnival_music",
+        "stream": true,
+        "type": "sound"
+      }]
   }
 }

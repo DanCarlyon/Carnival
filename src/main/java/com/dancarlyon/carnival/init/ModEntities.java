@@ -21,6 +21,7 @@ public class ModEntities {
         ModelCarnivalClown.registerEntityEgg(EntityCarnivalClown.class, 0xffffff, 0xff0000);
         LanguageRegistry.instance().addStringLocalization("entity.Carnival.carnival_clown.name", "en_US", "Carnival Clown");
 
+        //Temporarily removed while i think of a way to fix it
         /*EntityRegistry.registerModEntity(EntityDethknight.class, "dethknight", 2, Reference.MOD_ID, 80, 3, true);
         RenderingRegistry.registerEntityRenderingHandler(EntityDethknight.class, new RenderDethknight(new ModelDethknight(), 0.5F));
         EntityRegistry.addSpawn(EntityDethknight.class, 10, 1, 2, EnumCreatureType.creature, BiomeGenBase.plains);

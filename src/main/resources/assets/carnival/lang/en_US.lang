@@ -45,3 +45,6 @@ item.carnival:bacon_boots.name=Bacon Boots
 
 #Tiles
 tile.carnival:swordinstone.name=The Sword in The Stone
+
+item.carnival_music.name=Carnival Music
+item.record.carnival_music.desc=Some up beat carnival music
