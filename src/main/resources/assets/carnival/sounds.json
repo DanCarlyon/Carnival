@@ -16,8 +16,7 @@
     "sounds": [
       {
         "name": "carnival_music",
-        "stream": true,
-        "type": "sound"
+        "stream": true
       }]
   }
 }
