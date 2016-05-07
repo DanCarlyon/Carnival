@@ -18,5 +18,11 @@
         "name": "carnival_music",
         "stream": true
       }]
+  },
+  "cha_ching": {
+    "category": "master",
+    "sounds": [
+      "cha_ching"
+    ]
   }
 }
