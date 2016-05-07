@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6ea05899-e082-47bf-9b94-fc173eb42396" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/handler/ConfigurationHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/handler/ConfigurationHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/item/ItemCyanideBottle.java" afterPath="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/item/ItemCyanideBottle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/item/ItemMultiSnowCone.java" afterPath="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/item/ItemMultiSnowCone.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/init/ModBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/init/ModBlocks.java" />
     </list>
     <ignored path="Carnival.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,53 +72,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BlockSwordInStone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/block/BlockSwordInStone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EntityCarnivalClown.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/entity/EntityCarnivalClown.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemMultiSnowCone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/item/ItemMultiSnowCone.java">
+      <file leaf-file-name="ModBlocks.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/init/ModBlocks.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemCyanideBottle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/item/ItemCyanideBottle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="66" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="66" />
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConfigurationHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConfigurationHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/handler/ConfigurationHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="57" column="208" selection-start-line="57" selection-start-column="208" selection-end-line="57" selection-end-column="208" />
+            <state relative-caret-position="408">
+              <caret line="63" column="154" selection-start-line="63" selection-start-column="154" selection-end-line="63" selection-end-column="154" />
               <folding />
             </state>
           </provider>
@@ -162,16 +129,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemCarnivalMusic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/item/ItemCarnivalMusic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="33" column="72" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -793,7 +750,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/item/ItemCarnivalMusic.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/block/BlockCarnival.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/item/ItemCarnivalTicket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/init/ModBlocks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/block/BlockSwordInStone.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/carnival/sounds.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/init/ModFoodItems.java" />
@@ -802,6 +758,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/item/ItemCyanideBottle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/item/ItemMultiSnowCone.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/handler/ConfigurationHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/init/ModBlocks.java" />
       </list>
     </option>
   </component>
@@ -1389,6 +1346,66 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Carnival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Carnival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carnival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="init" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Carnival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Carnival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carnival" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="block" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2107,6 +2124,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15589">
           <caret line="1054" column="5" selection-start-line="1051" selection-start-column="4" selection-end-line="1054" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2160,29 +2178,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/init/ModBlocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-          <folding>
-            <element signature="e#433#434#0" expanded="false" />
-            <element signature="e#505#506#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/block/BlockCarnival.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#677#678#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/item/ItemCarnivalMusic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -2209,6 +2204,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2216,6 +2212,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2223,6 +2220,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2230,6 +2228,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="233" column="27" selection-start-line="233" selection-start-column="23" selection-end-line="233" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2288,14 +2287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/entity/EntityCarnivalClown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/item/FoodItemCarnival.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -2322,6 +2313,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/item/ItemCyanideBottle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/item/ItemMultiSnowCone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -2332,18 +2331,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/item/ItemCyanideBottle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/block/BlockCarnival.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="66" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="66" />
+        <state relative-caret-position="159">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/entity/EntityCarnivalClown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/handler/ConfigurationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="57" column="208" selection-start-line="57" selection-start-column="208" selection-end-line="57" selection-end-column="208" />
+        <state relative-caret-position="408">
+          <caret line="63" column="154" selection-start-line="63" selection-start-column="154" selection-end-line="63" selection-end-column="154" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancarlyon/carnival/init/ModBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>

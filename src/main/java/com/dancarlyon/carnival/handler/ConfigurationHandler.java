@@ -23,6 +23,8 @@ public class ConfigurationHandler
     public static int multiSnowConeDigSpeedDuration = 0;
     public static int multiSnowConeJumpDuration = 0;
 
+    public static boolean enableSwordInStoneBlock = false;
+
     public static void init(File configFile)
     {
         if (configuration == null) {
@@ -57,6 +59,9 @@ public class ConfigurationHandler
         multiSnowConeSpeedDuration = configuration.getInt("Multi Colored Snowcone Move Speed Duration", "FoodEffectDurations", 5, 0, 20, "Number of seconds for speed to last after eating a multi colored snowcone");
         multiSnowConeDigSpeedDuration = configuration.getInt("Multi Colored Snowcone Dig Speed Duration", "FoodEffectDurations", 5, 0, 20, "Number of seconds for dig speed to last after eating a multi colored snowcone");
         multiSnowConeJumpDuration = configuration.getInt("Multi Colored Snowcone Jump Duration", "FoodEffectDurations", 5, 0, 20, "Number of seconds for jump to last after eating a multi colored snowcone");
+
+
+        enableSwordInStoneBlock = configuration.getBoolean("Enable/Disable Sword in stone block", "BlockConfigurations", true, "To disable set to false");
 
         if (configuration.hasChanged())
         {

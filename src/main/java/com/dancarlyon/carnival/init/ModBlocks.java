@@ -2,6 +2,7 @@ package com.dancarlyon.carnival.init;
 
 import com.dancarlyon.carnival.block.BlockCarnival;
 import com.dancarlyon.carnival.block.BlockSwordInStone;
+import com.dancarlyon.carnival.handler.ConfigurationHandler;
 import com.dancarlyon.carnival.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -12,6 +13,8 @@ public class ModBlocks
 
     public static void init()
     {
-        GameRegistry.registerBlock(swordinstone, "swordinstone");
+        if(ConfigurationHandler.enableSwordInStoneBlock == true) {
+            GameRegistry.registerBlock(swordinstone, "swordinstone");
+        }
     }
 }
