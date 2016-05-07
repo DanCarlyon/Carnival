@@ -19,6 +19,10 @@ public class ConfigurationHandler
     public static int giantwaffleHealDuration = 0;
     public static int pretzelSpeedDuration = 0;
 
+    public static int multiSnowConeSpeedDuration = 0;
+    public static int multiSnowConeDigSpeedDuration = 0;
+    public static int multiSnowConeJumpDuration = 0;
+
     public static void init(File configFile)
     {
         if (configuration == null) {
@@ -49,6 +53,10 @@ public class ConfigurationHandler
         giantwaffleHealDuration = configuration.getInt("Giant Waffle Heal Duration", "FoodEffectDurations", 60, 0, 120, "Number of seconds for Giant Waffle Heal. Min: 0, Max: 240");
 
         pretzelSpeedDuration = configuration.getInt("Pretzel Speed Duration", "FoodEffectDurations", 10, 0, 60, "Number of seconds for speed to last after eating a pretzel");
+
+        multiSnowConeSpeedDuration = configuration.getInt("Multi Colored Snowcone Move Speed Duration", "FoodEffectDurations", 5, 0, 20, "Number of seconds for speed to last after eating a multi colored snowcone");
+        multiSnowConeDigSpeedDuration = configuration.getInt("Multi Colored Snowcone Dig Speed Duration", "FoodEffectDurations", 5, 0, 20, "Number of seconds for dig speed to last after eating a multi colored snowcone");
+        multiSnowConeJumpDuration = configuration.getInt("Multi Colored Snowcone Jump Duration", "FoodEffectDurations", 5, 0, 20, "Number of seconds for jump to last after eating a multi colored snowcone");
 
         if (configuration.hasChanged())
         {

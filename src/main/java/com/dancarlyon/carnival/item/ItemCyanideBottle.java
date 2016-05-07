@@ -9,8 +9,7 @@ import net.minecraft.world.World;
 
 public class ItemCyanideBottle extends FoodItemCarnival
 {
-    public ItemCyanideBottle()
-    {
+    public ItemCyanideBottle() {
         super(0, 5F, false);
         this.setUnlocalizedName("cyanide_bottle");
         this.setMaxStackSize(1);
