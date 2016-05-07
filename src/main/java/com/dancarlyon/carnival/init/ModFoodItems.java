@@ -38,6 +38,7 @@ public class ModFoodItems
     public static final FoodItemCarnival orangeSnowCone = new ItemOrangeSnowCone();
     public static final FoodItemCarnival purpleSnowCone = new ItemPurpleSnowCone();
     public static final FoodItemCarnival yellowSnowCone = new ItemYellowSnowCone();
+    public static final FoodItemCarnival multiSnowCone = new ItemMultiSnowCone();
 
     public static final FoodItemCarnival candyApple = new ItemCandyApple();
     public static final FoodItemCarnival pretzel = new ItemPretzel();
@@ -73,6 +74,7 @@ public class ModFoodItems
         GameRegistry.registerItem(orangeSnowCone, "orange_snow_cone");
         GameRegistry.registerItem(purpleSnowCone, "purple_snow_cone");
         GameRegistry.registerItem(yellowSnowCone, "yellow_snow_cone");
+        GameRegistry.registerItem(multiSnowCone, "multi_colored_snowcone");
 
         GameRegistry.registerItem(candyApple, "candy_apple");
         GameRegistry.registerItem(pretzel, "pretzel");
