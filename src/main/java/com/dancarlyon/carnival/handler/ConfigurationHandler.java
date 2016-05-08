@@ -23,7 +23,7 @@ public class ConfigurationHandler
     public static int multiSnowConeDigSpeedDuration = 0;
     public static int multiSnowConeJumpDuration = 0;
 
-    public static boolean enableSwordInStoneBlock = false;
+    public static boolean enableTicketMachineBlock = false;
 
     public static void init(File configFile)
     {
@@ -61,7 +61,7 @@ public class ConfigurationHandler
         multiSnowConeJumpDuration = configuration.getInt("Multi Colored Snowcone Jump Duration", "FoodEffectDurations", 5, 0, 20, "Number of seconds for jump to last after eating a multi colored snowcone");
 
 
-        enableSwordInStoneBlock = configuration.getBoolean("Enable/Disable Sword in stone block", "BlockConfigurations", true, "To disable set to false");
+        enableTicketMachineBlock = configuration.getBoolean("WIP Enable Ticket Machine block", "BlockConfigurations", false, "To disable set to false");
 
         if (configuration.hasChanged())
         {
