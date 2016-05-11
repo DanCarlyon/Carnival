@@ -15,7 +15,6 @@ public class ModItems
     public static final ItemCarnival rawCornDog = new ItemRawCornDog();
     public static final ItemCarnival batterBucket = new ItemBatterBucket();
     public static final ItemCarnival carnivalTicket = new ItemCarnivalTicket();
-
     public static final ItemRecord carnivalMusic = new ItemCarnivalMusic("carnival_music");
 
     public static void init()
