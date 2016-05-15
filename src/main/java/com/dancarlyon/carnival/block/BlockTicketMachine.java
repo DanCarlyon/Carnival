@@ -33,7 +33,7 @@ public class BlockTicketMachine extends BlockCarnival
                 world.playSoundAtEntity(player, "carnival:cha_ching", 2, 1);
                 spawnAnItem(world, x, y, z);
             } else {
-                player.addChatComponentMessage(new ChatComponentText(player.getDisplayName() + " Maybe I should try something else."));
+                player.addChatComponentMessage(new ChatComponentText(player.getDisplayName() + " Maybe I should try something else in this ticket machine"));
             }
         }
         return false;
