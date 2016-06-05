@@ -25,6 +25,10 @@ public class ConfigurationHandler
 
     public static boolean enableTicketMachineBlock = false;
 
+    public static boolean enableCarnivalClowns = false;
+
+    public static boolean enableExperimentalStuffAndThings = false;
+
     public static void init(File configFile)
     {
         if (configuration == null) {
@@ -62,6 +66,10 @@ public class ConfigurationHandler
 
 
         enableTicketMachineBlock = configuration.getBoolean("WIP Enable Ticket Machine block", "BlockConfigurations", false, "To disable set to false");
+
+        enableCarnivalClowns = configuration.getBoolean("Enable carnival clowns mob", "MobConfigurations", true, "To disable set to false");
+
+        enableExperimentalStuffAndThings = configuration.getBoolean("Enable this to see work in progress stuff", "ModConfigurations", false, "BACKUP YOUR WORLD BEFORE ENABLING THIS!");
 
         if (configuration.hasChanged())
         {

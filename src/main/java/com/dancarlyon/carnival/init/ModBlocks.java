@@ -13,8 +13,10 @@ public class ModBlocks
 
     public static void init()
     {
-        if(ConfigurationHandler.enableTicketMachineBlock) {
-            GameRegistry.registerBlock(ticketmachine, "ticketmachine");
+        if(ConfigurationHandler.enableExperimentalStuffAndThings == true) {
+            if (ConfigurationHandler.enableTicketMachineBlock) {
+                GameRegistry.registerBlock(ticketmachine, "ticketmachine");
+            }
         }
     }
 }
