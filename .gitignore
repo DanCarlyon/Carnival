@@ -6,3 +6,6 @@ gradle/*
 gradlew
 gradlew.bat
 Carnival.iws
+build/*
+out/*
+old_gradle/*
