@@ -1,71 +1,37 @@
 package com.dancarlyon.carnival;
 
-import com.dancarlyon.carnival.entity.EntityCarnivalClown;
-import com.dancarlyon.carnival.entity.ModelCarnivalClown;
-import com.dancarlyon.carnival.entity.RenderClown;
-import com.dancarlyon.carnival.handler.ConfigurationHandler;
-import com.dancarlyon.carnival.init.*;
-import com.dancarlyon.carnival.proxy.IProxy;
-import com.dancarlyon.carnival.reference.Reference;
-import com.dancarlyon.carnival.utility.LogHelper;
-import cpw.mods.fml.client.registry.RenderingRegistry;
-import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.SidedProxy;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.event.FMLPostInitializationEvent;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.registry.EntityRegistry;
-import net.minecraft.entity.EnumCreatureType;
-import net.minecraft.world.biome.BiomeGenBase;
+import com.dancarlyon.carnival.proxy.CommonProxy;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.SidedProxy;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-import java.lang.reflect.Array;
-
-@Mod(modid = Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.MOD_VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
+@Mod(modid = Carnival.modId, name = Carnival.name, version = Carnival.version, acceptedMinecraftVersions = "[1.10.2]")
 public class Carnival
 {
-    @Mod.Instance(Reference.MOD_ID)
+    public static final String modId = "carnival";
+    public static final String name = "Carnival Mod";
+    public static final String version = "1.10.2-1.0.5";
+
+    @Mod.Instance(modId)
     public static Carnival instance;
 
-    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
-    public static IProxy proxy;
-
     @Mod.EventHandler
-    public void preInit(FMLPreInitializationEvent event)
-    {
-        //network/configs/items
-        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
-        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-
-        ModFoodItems.init();
-
-        ModItems.init();
-
-        ModBlocks.init();
-
-        ModArmor.init();
-
-        ModEntities.init();
-
-        LogHelper.info("Pre Initialization Checks Complete!");
+    public void preInit(FMLPreInitializationEvent event) {
+        System.out.println(name + " is loading!");
     }
 
     @Mod.EventHandler
-    public void init(FMLInitializationEvent event)
-    {
-        //Crafting register
-        Recipes.init();
+    public void init(FMLInitializationEvent event) {
 
-        //World Stuff
-        ModWorld.init();
-
-        LogHelper.info("Initialization Checks Complete!");
     }
 
     @Mod.EventHandler
-    public void postInit(FMLPostInitializationEvent event)
-    {
-        // Wrapping up
-        LogHelper.info("Post Initialization Checks Complete!");
+    public void postInit(FMLPostInitializationEvent event) {
+
     }
+
+    @SidedProxy(serverSide = "com.dancarlyon.carnival.proxy.CommonProxy", clientSide = "com.dancarlyon.carnival.proxy.ClientProxy")
+    public static CommonProxy proxy;
 }
