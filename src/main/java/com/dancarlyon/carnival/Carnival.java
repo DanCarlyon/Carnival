@@ -1,5 +1,7 @@
 package com.dancarlyon.carnival;
 
+import com.dancarlyon.carnival.client.CarnivalTab;
+import com.dancarlyon.carnival.item.ModItems;
 import com.dancarlyon.carnival.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -17,8 +19,14 @@ public class Carnival
     @Mod.Instance(modId)
     public static Carnival instance;
 
+    @SidedProxy(serverSide = "com.dancarlyon.carnival.proxy.CommonProxy", clientSide = "com.dancarlyon.carnival.proxy.ClientProxy")
+    public static CommonProxy proxy;
+
+    public static final CarnivalTab creativeTab = new CarnivalTab();
+
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
+        ModItems.init();
         System.out.println(name + " is loading!");
     }
 
@@ -32,6 +40,4 @@ public class Carnival
 
     }
 
-    @SidedProxy(serverSide = "com.dancarlyon.carnival.proxy.CommonProxy", clientSide = "com.dancarlyon.carnival.proxy.ClientProxy")
-    public static CommonProxy proxy;
 }
