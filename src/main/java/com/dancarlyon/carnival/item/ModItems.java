@@ -8,18 +8,18 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
 
-    public static ItemBase ingotTest;
+    //public static ItemBase ingotTest;
 
     public static ItemBase icing;
-    public static ItemBase sprinkles;
+    /*public static ItemBase sprinkles;
     public static ItemBase carnivalToken;
     public static ItemBase carnivalFlour;
     public static ItemBase rawCornDog;
-    public static ItemBase batterBucket;
+    public static ItemBase batterBucket;*/
     public static ItemBase carnivalTicket;
 
     public static void init() {
-        ingotTest = register(new ItemBase("ingotTest"));
+        //ingotTest = register(new ItemBase("ingotTest"));
 
         icing = register(new ItemBase("icing"));
         /*sprinkles = register(new ItemBase("sprinkles"));
