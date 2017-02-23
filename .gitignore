@@ -10,3 +10,8 @@ build/*
 out/*
 old_gradle/*
 .idea/*
+crash-reports/*
+logs/*
+options.txt
+usercache.json
+usernamecache.json
