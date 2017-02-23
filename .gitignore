@@ -9,3 +9,4 @@ Carnival.iws
 build/*
 out/*
 old_gradle/*
+.idea/*

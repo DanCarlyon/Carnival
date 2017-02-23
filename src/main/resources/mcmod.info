@@ -2,14 +2,14 @@
 {
   "modid": "carnival",
   "name": "Carnival Mod",
-  "description": "All the fun of the carnival",
+  "description": "Example placeholder mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://github.com/DanCarlyon",
+  "url": "http://www.dancarlyon.co.uk",
   "updateUrl": "",
   "authorList": ["DanCarlyon"],
   "credits": "Button_Pusher for bringing me back to it",
-  "logoFile": "assets/carnival/logo.png",
+  "logoFile": "",
   "screenshots": [],
   "dependencies": []
 }

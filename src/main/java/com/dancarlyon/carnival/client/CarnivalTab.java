@@ -1,7 +1,7 @@
 package com.dancarlyon.carnival.client;
 
 
-import com.dancarlyon.carnival.Carnival;
+import com.dancarlyon.carnival.CarnivalMod;
 import com.dancarlyon.carnival.item.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -9,7 +9,7 @@ import net.minecraft.item.Item;
 public class CarnivalTab extends CreativeTabs {
 
     public CarnivalTab() {
-        super(Carnival.modId);
+        super(CarnivalMod.modId);
     }
 
     @Override
