@@ -3,6 +3,7 @@ package com.dancarlyon.carnival;
 import com.dancarlyon.carnival.client.CarnivalTab;
 import com.dancarlyon.carnival.item.ModItems;
 import com.dancarlyon.carnival.proxy.CommonProxy;
+import com.dancarlyon.carnival.recipe.ModRecipes;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -32,7 +33,7 @@ public class CarnivalMod
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-
+        ModRecipes.init();
     }
 
     @Mod.EventHandler
