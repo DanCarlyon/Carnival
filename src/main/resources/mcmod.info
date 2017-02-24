@@ -2,7 +2,7 @@
 {
   "modid": "carnival",
   "name": "Carnival Mod",
-  "description": "Example placeholder mod.",
+  "description": "Bring all the fun of the carnival to Mnecraft along with some twitch related goodies",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "http://www.dancarlyon.co.uk",

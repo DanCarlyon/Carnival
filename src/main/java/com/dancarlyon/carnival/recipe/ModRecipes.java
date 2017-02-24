@@ -19,7 +19,7 @@ public class ModRecipes {
         GameRegistry.addRecipe(new ItemStack(ModItems.candyFloss, 1), "sss", "sws", " w ", 's', new ItemStack(Items.SUGAR), 'w', new ItemStack(Items.STICK));
         GameRegistry.addRecipe(new ItemStack(ModItems.rawCornDog, 1), " b ", " m ", " s ", 'b', new ItemStack(ModItems.batterBucket), 'm', new ItemStack(ModItems.rawHotdog), 's', new ItemStack(Items.STICK));
         GameRegistry.addRecipe(new ItemStack(ModItems.carnivalFlour, 3), " c ", " w ", " s ", 'c', new ItemStack(Blocks.COBBLESTONE), 'w', new ItemStack(Items.WHEAT), 's', new ItemStack(Blocks.STONE_SLAB));
-        //GameRegistry.addRecipe(new ItemStack(ModItems.plainSnowCone, 1), " s ", "p p", " p ", 's', new ItemStack(Items.snowball), 'p', new ItemStack(Items.paper));
+        GameRegistry.addRecipe(new ItemStack(ModItems.snowCone, 1), " s ", "p p", " p ", 's', new ItemStack(Items.SNOWBALL), 'p', new ItemStack(Items.PAPER));
 
         GameRegistry.addRecipe(new ItemStack(ModItems.candyApple, 1), "sss", "sas", " w ", 's', new ItemStack(Items.SUGAR), 'a', new ItemStack(Items.APPLE), 'w', new ItemStack(Items.STICK));
 
@@ -31,15 +31,15 @@ public class ModRecipes {
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.icing), new ItemStack(Items.SUGAR), new ItemStack(Items.WATER_BUCKET));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.batterBucket), new ItemStack(ModItems.carnivalFlour), new ItemStack(ModItems.carnivalFlour), new ItemStack(Items.WATER_BUCKET));
 
-        /*GameRegistry.addShapelessRecipe(new ItemStack(ModItems.redSnowCone), new ItemStack(ModItems.plainSnowCone), new ItemStack(Items.dye, 1, 1));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.blueSnowCone), new ItemStack(ModItems.plainSnowCone), new ItemStack(Items.dye, 1, 6));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.greenSnowCone), new ItemStack(ModItems.plainSnowCone), new ItemStack(Items.dye, 1, 2));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.lightBlueSnowCone), new ItemStack(ModItems.plainSnowCone), new ItemStack(Items.dye, 1, 12));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.magentaSnowCone), new ItemStack(ModItems.plainSnowCone), new ItemStack(Items.dye, 1, 13));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.orangeSnowCone), new ItemStack(ModItems.plainSnowCone), new ItemStack(Items.dye, 1, 14));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.purpleSnowCone), new ItemStack(ModItems.plainSnowCone), new ItemStack(Items.dye, 1, 5));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.yellowSnowCone), new ItemStack(ModItems.plainSnowCone), new ItemStack(Items.dye, 1, 11));
-        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.limeSnowCone), new ItemStack(ModItems.plainSnowCone), new ItemStack(Items.dye, 1, 10));*/
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.red), new ItemStack(ModItems.snowCone), new ItemStack(Items.DYE, 1, 1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.blue), new ItemStack(ModItems.snowCone), new ItemStack(Items.DYE, 1, 6));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.green), new ItemStack(ModItems.snowCone), new ItemStack(Items.DYE, 1, 2));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.lightblue), new ItemStack(ModItems.snowCone), new ItemStack(Items.DYE, 1, 12));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.magenta), new ItemStack(ModItems.snowCone), new ItemStack(Items.DYE, 1, 13));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.orange), new ItemStack(ModItems.snowCone), new ItemStack(Items.DYE, 1, 14));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.purple), new ItemStack(ModItems.snowCone), new ItemStack(Items.DYE, 1, 5));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.yellow), new ItemStack(ModItems.snowCone), new ItemStack(Items.DYE, 1, 11));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.lime), new ItemStack(ModItems.snowCone), new ItemStack(Items.DYE, 1, 10));
 
         //Smelting
         GameRegistry.addSmelting(new ItemStack(ModItems.rawDonut), new ItemStack(ModItems.plainDonut), 5.0f);

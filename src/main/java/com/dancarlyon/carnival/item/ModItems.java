@@ -31,6 +31,18 @@ public class ModItems {
     public static ItemFoodBase rawDonut;
     public static ItemFoodBase rawHotdog;
     public static ItemFoodBase sprinkledDonut;
+    public static ItemSnowCone snowCone;
+    public static ItemFlavoredSnowCone red;
+    public static ItemFlavoredSnowCone yellow;
+    public static ItemFlavoredSnowCone purple;
+    public static ItemFlavoredSnowCone orange;
+    public static ItemFlavoredSnowCone lime;
+    public static ItemFlavoredSnowCone lightblue;
+    public static ItemFlavoredSnowCone green;
+    public static ItemFlavoredSnowCone blue;
+    public static ItemFlavoredSnowCone magenta;
+    public static ItemFlavoredSnowCone multiColored;
+
 
     public static void init() {
         icing = register(new ItemBase("icing"));
@@ -56,6 +68,18 @@ public class ModItems {
         rawDonut = register(new ItemFoodBase("rawDonut", 1, 0.3f, false));
         rawHotdog = register(new ItemFoodBase("rawHotdog", 1, 0.1f, false));
         sprinkledDonut = register(new ItemFoodBase("sprinkledDonut", 3, 0.3f, false));
+
+        snowCone = register(new ItemSnowCone("snowCone", 6, 1.0f, false));
+        red = register(new ItemFlavoredSnowCone("red", 3, 0.5f, false));
+        yellow = register(new ItemFlavoredSnowCone("yellow", 3, 0.5f, false));
+        purple = register(new ItemFlavoredSnowCone("purple", 3, 0.5f, false));
+        orange = register(new ItemFlavoredSnowCone("orange", 3, 0.5f, false));
+        lime = register(new ItemFlavoredSnowCone("lime", 3, 0.5f, false));
+        lightblue = register(new ItemFlavoredSnowCone("lightblue", 3, 0.5f, false));
+        green = register(new ItemFlavoredSnowCone("green", 3, 0.5f, false));
+        blue = register(new ItemFlavoredSnowCone("blue", 3, 0.5f, false));
+        magenta = register(new ItemFlavoredSnowCone("magenta", 3, 0.5f, false));
+        multiColored = register(new ItemFlavoredSnowCone("multiColored", 3, 0.5f, false));
     }
 
 	private static <T extends Item> T register(T item) {

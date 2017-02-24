@@ -10,11 +10,17 @@ public class CarnivalTab extends CreativeTabs {
 
     public CarnivalTab() {
         super(CarnivalMod.modId);
+        setBackgroundImageName("item_search.png");
     }
 
     @Override
     public Item getTabIconItem() {
         return ModItems.carnivalTicket;
+    }
+
+    @Override
+    public boolean hasSearchBar() {
+        return true;
     }
 
 }
