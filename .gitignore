@@ -1,11 +1,25 @@
-## ForgeGradle
-/run
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
 
-.gradle/*
-gradle/*
-gradlew
-gradlew.bat
-Carnival.iws
-build/*
-out/*
-old_gradle/*
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt

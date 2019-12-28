@@ -1,32 +1,29 @@
 package com.dancarlyon.carnival.init;
 
-import com.dancarlyon.carnival.item.*;
-import com.dancarlyon.carnival.reference.Reference;
-import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.item.ItemRecord;
+import com.dancarlyon.carnival.Carnival;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
 
-@GameRegistry.ObjectHolder(Reference.MOD_ID)
-public class ModItems
-{
-    public static final ItemCarnival icing = new ItemIcing();
-    public static final ItemCarnival sprinkles = new ItemSprinkles();
-    public static final ItemCarnival carnivalToken = new ItemToken();
-    public static final ItemCarnival carnivalFlour = new ItemCarnivalFlour();
-    public static final ItemCarnival rawCornDog = new ItemRawCornDog();
-    public static final ItemCarnival batterBucket = new ItemBatterBucket();
-    public static final ItemCarnival carnivalTicket = new ItemCarnivalTicket();
-    public static final ItemRecord carnivalMusic = new ItemCarnivalMusic("carnival_music");
+@Mod.EventBusSubscriber(modid = Carnival.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+public class ModItems {
+    public static final Item carnival_token = null;
 
-    public static void init()
-    {
-        GameRegistry.registerItem(icing, "icing");
-        GameRegistry.registerItem(sprinkles, "sprinkles");
-        GameRegistry.registerItem(carnivalToken, "carnival_token");
-        GameRegistry.registerItem(carnivalFlour, "carnival_flour");
-        GameRegistry.registerItem(rawCornDog, "raw_corn_dog");
-        GameRegistry.registerItem(batterBucket, "batter_bucket");
-        GameRegistry.registerItem(carnivalTicket, "carnival_ticket");
-        GameRegistry.registerItem(carnivalMusic, "carnival_music");
+
+    /*public static void registerItems(RegistryEvent.Register<Item> event) {
+        event.getRegistry().registerAll(
+                new Item(new Item.Properties()).setRegistryName(Carnival.MOD_ID, "carnival_token1")
+        );
+    }*/
+
+    @SubscribeEvent
+    public static void onItemRegistry(final RegistryEvent.Register<Item> itemRegistryEvent) {
+        // register a new item here
+        //LOGGER.info("HELLO from Registering Items");
+        itemRegistryEvent.getRegistry().registerAll(
+                new Item(new Item.Properties().group(ItemGroup.MISC)).setRegistryName(Carnival.MOD_ID, "carnival_token")
+        );
     }
-
 }

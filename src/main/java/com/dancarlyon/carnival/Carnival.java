@@ -1,71 +1,30 @@
 package com.dancarlyon.carnival;
 
-import com.dancarlyon.carnival.entity.EntityCarnivalClown;
-import com.dancarlyon.carnival.entity.ModelCarnivalClown;
-import com.dancarlyon.carnival.entity.RenderClown;
-import com.dancarlyon.carnival.handler.ConfigurationHandler;
-import com.dancarlyon.carnival.init.*;
-import com.dancarlyon.carnival.proxy.IProxy;
-import com.dancarlyon.carnival.reference.Reference;
-import com.dancarlyon.carnival.utility.LogHelper;
-import cpw.mods.fml.client.registry.RenderingRegistry;
-import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.SidedProxy;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.event.FMLPostInitializationEvent;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.registry.EntityRegistry;
-import net.minecraft.entity.EnumCreatureType;
-import net.minecraft.world.biome.BiomeGenBase;
+import com.dancarlyon.carnival.init.ModItems;
+import net.minecraft.item.Item;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import java.lang.reflect.Array;
+@Mod(Carnival.MOD_ID)
+public class Carnival {
 
-@Mod(modid = Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.MOD_VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
-public class Carnival
-{
-    @Mod.Instance(Reference.MOD_ID)
-    public static Carnival instance;
+    public static final String MOD_ID = "carnival";
 
-    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
-    public static IProxy proxy;
+    // Directly reference a log4j logger.
+    private static final Logger LOGGER = LogManager.getLogger();
 
-    @Mod.EventHandler
-    public void preInit(FMLPreInitializationEvent event)
-    {
-        //network/configs/items
-        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
-        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-
-        ModFoodItems.init();
-
-        ModItems.init();
-
-        ModBlocks.init();
-
-        ModArmor.init();
-
-        ModEntities.init();
-
-        LogHelper.info("Pre Initialization Checks Complete!");
-    }
-
-    @Mod.EventHandler
-    public void init(FMLInitializationEvent event)
-    {
-        //Crafting register
-        Recipes.init();
-
-        //World Stuff
-        ModWorld.init();
-
-        LogHelper.info("Initialization Checks Complete!");
-    }
-
-    @Mod.EventHandler
-    public void postInit(FMLPostInitializationEvent event)
-    {
-        // Wrapping up
-        LogHelper.info("Post Initialization Checks Complete!");
-    }
+    // You can use EventBusSubscriber to automatically subscribe events on the contained class (this is subscribing to the MOD
+    // Event bus for receiving Registry Events)
+   /* @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
+    public static class RegistryEvents {
+        @SubscribeEvent
+        public static void onItemRegistry(final RegistryEvent.Register<Item> itemRegistryEvent) {
+            // register a new item here
+            LOGGER.info("HELLO from Registering Items");
+            ModItems.registerItems(itemRegistryEvent);
+        }
+    }*/
 }
