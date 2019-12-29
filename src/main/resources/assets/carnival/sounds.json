@@ -12,10 +12,10 @@
     ]
   },
   "carnival_music": {
-    "category": "music",
+    "category": "record",
     "sounds": [
       {
-        "name": "carnival_music",
+        "name": "carnival:carnival_music",
         "stream": true
       }]
   },
