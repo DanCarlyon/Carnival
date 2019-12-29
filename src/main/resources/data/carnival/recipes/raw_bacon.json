@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  p",
+    " p ",
+    "p  "
+  ],
+  "key": {
+    "p": {
+      "item": "minecraft:porkchop"
+    }
+  },
+  "result": {
+    "item": "carnival:raw_bacon",
+    "count": 3
+  }
+}

@@ -3,7 +3,6 @@ package com.dancarlyon.carnival.init;
 import com.dancarlyon.carnival.Carnival;
 import com.dancarlyon.carnival.items.CarnivalDiscItem;
 import com.dancarlyon.carnival.items.CarnivalSnowCone;
-import net.minecraft.dispenser.ILocation;
 import net.minecraft.item.*;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
@@ -87,5 +86,6 @@ public class ModItems {
                 new CarnivalSnowCone().setRegistryName(Carnival.MOD_ID, "multi_colored_snowcone")
 
         );
+
     }
 }

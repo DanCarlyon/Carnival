@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    "p p",
+    " p "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:snowball"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "carnival:plain_snow_cone",
+    "count": 1
+  }
+}
