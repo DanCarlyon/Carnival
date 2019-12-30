@@ -13,6 +13,7 @@ Carnival
 - Pretzel
 
 ToDo:
+* Add back configuration
 * Add potion effects back to foods
 * Custom NPC with trades
 * Bacon Armor
