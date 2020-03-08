@@ -31,8 +31,6 @@ public class ModItems {
         Food donut_with_sprinkles = (new Food.Builder()).hunger(3).saturation(0.3F).build();
         Food raw_donut = (new Food.Builder()).hunger(1).saturation(0.3F).build();
         Food bacon_donut = (new Food.Builder()).hunger(12).saturation(0.9F).build();
-        Food giant_waffle = (new Food.Builder()).hunger(12).saturation(0.9F).build();
-        Food pretzel = (new Food.Builder()).hunger(6).saturation(1.0F).build();
         Food cooked_sausage = (new Food.Builder()).hunger(2).saturation(0.1F).build();
         Food raw_hotdog = (new Food.Builder()).hunger(1).saturation(0.1F).build();
         Food hot_dog = (new Food.Builder()).hunger(4).saturation(0.1F).build();
@@ -43,7 +41,6 @@ public class ModItems {
                 new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP)).setRegistryName(Carnival.MOD_ID, "carnival_token"),
                 new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP)).setRegistryName(Carnival.MOD_ID, "flour"),
                 new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP)).setRegistryName(Carnival.MOD_ID, "carnival_ticket"),
-                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP)).setRegistryName(Carnival.MOD_ID, "cyanide_bottle"),
                 new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP)).setRegistryName(Carnival.MOD_ID, "batter_bucket"),
                 new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP)).setRegistryName(Carnival.MOD_ID, "icing"),
                 new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP)).setRegistryName(Carnival.MOD_ID, "raw_corn_dog"),
@@ -60,7 +57,6 @@ public class ModItems {
                 new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(raw_bacon)).setRegistryName(Carnival.MOD_ID, "raw_bacon"),
                 new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(cooked_sausage)).setRegistryName(Carnival.MOD_ID, "cooked_sausage"),
                 new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(corn_dog)).setRegistryName(Carnival.MOD_ID, "corn_dog"),
-                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(giant_waffle)).setRegistryName(Carnival.MOD_ID, "giant_waffle"),
                 new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(hot_dog)).setRegistryName(Carnival.MOD_ID, "hot_dog"),
                 new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(raw_hotdog)).setRegistryName(Carnival.MOD_ID, "raw_hotdog"),
                 new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(candy_apple)).setRegistryName(Carnival.MOD_ID, "candy_apple"),
@@ -70,20 +66,24 @@ public class ModItems {
                 new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(iced_donut)).setRegistryName(Carnival.MOD_ID, "iced_donut"),
                 new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(bacon_donut)).setRegistryName(Carnival.MOD_ID, "bacon_donut"),
                 new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(donut_with_sprinkles)).setRegistryName(Carnival.MOD_ID, "donut_with_sprinkles"),
-                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(pretzel)).setRegistryName(Carnival.MOD_ID, "pretzel"),
 
-                // SnowCones
-                new CarnivalSnowCone().setRegistryName(Carnival.MOD_ID, "blue_snow_cone"),
-                new CarnivalSnowCone().setRegistryName(Carnival.MOD_ID, "green_snow_cone"),
-                new CarnivalSnowCone().setRegistryName(Carnival.MOD_ID, "lightblue_snow_cone"),
-                new CarnivalSnowCone().setRegistryName(Carnival.MOD_ID, "lime_snow_cone"),
-                new CarnivalSnowCone().setRegistryName(Carnival.MOD_ID, "magenta_snow_cone"),
-                new CarnivalSnowCone().setRegistryName(Carnival.MOD_ID, "orange_snow_cone"),
-                new CarnivalSnowCone().setRegistryName(Carnival.MOD_ID, "plain_snow_cone"),
-                new CarnivalSnowCone().setRegistryName(Carnival.MOD_ID, "purple_snow_cone"),
-                new CarnivalSnowCone().setRegistryName(Carnival.MOD_ID, "red_snow_cone"),
-                new CarnivalSnowCone().setRegistryName(Carnival.MOD_ID, "yellow_snow_cone"),
-                new CarnivalSnowCone().setRegistryName(Carnival.MOD_ID, "multi_colored_snowcone")
+                // Potion Effect Items
+                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(ModFoods.CYANIDE_BOTTLE)).setRegistryName(Carnival.MOD_ID, "cyanide_bottle"),
+                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(ModFoods.GIANT_WAFFLE)).setRegistryName(Carnival.MOD_ID, "giant_waffle"),
+                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(ModFoods.PRETZEL)).setRegistryName(Carnival.MOD_ID, "pretzel"),
+
+                // Snow Cones
+                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(ModFoods.SNOW_CONE)).setRegistryName(Carnival.MOD_ID, "blue_snow_cone"),
+                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(ModFoods.SNOW_CONE)).setRegistryName(Carnival.MOD_ID, "green_snow_cone"),
+                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(ModFoods.SNOW_CONE)).setRegistryName(Carnival.MOD_ID, "lightblue_snow_cone"),
+                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(ModFoods.SNOW_CONE)).setRegistryName(Carnival.MOD_ID, "lime_snow_cone"),
+                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(ModFoods.SNOW_CONE)).setRegistryName(Carnival.MOD_ID, "magenta_snow_cone"),
+                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(ModFoods.SNOW_CONE)).setRegistryName(Carnival.MOD_ID, "orange_snow_cone"),
+                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(ModFoods.SNOW_CONE)).setRegistryName(Carnival.MOD_ID, "plain_snow_cone"),
+                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(ModFoods.SNOW_CONE)).setRegistryName(Carnival.MOD_ID, "purple_snow_cone"),
+                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(ModFoods.SNOW_CONE)).setRegistryName(Carnival.MOD_ID, "red_snow_cone"),
+                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(ModFoods.SNOW_CONE)).setRegistryName(Carnival.MOD_ID, "yellow_snow_cone"),
+                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).food(ModFoods.RAINBOW_CONE)).setRegistryName(Carnival.MOD_ID, "multi_colored_snowcone")
 
         );
 

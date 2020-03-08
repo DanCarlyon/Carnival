@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'idea'
 apply plugin: 'maven-publish'
 
-version = '1.14.4-1.0.4'
+version = '1.14.4-1.0.5'
 group = 'com.dancarlyon.carnival' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'Carnival'
 
