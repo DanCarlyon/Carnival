@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "carnival:iced_donut"
+    },
+    {
+      "item": "carnival:sprinkles"
+    }
+  ],
+  "result": {
+    "item": "carnival:donut_with_sprinkles",
+    "count": 1
+  }
+}

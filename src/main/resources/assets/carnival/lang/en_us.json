@@ -1,0 +1,46 @@
+
+{
+  "itemGroup.carnival": "Carnival Mod",
+
+  "item.carnival.carnival_token": "Carnival Token",
+  "item.carnival.flour": "Flour",
+  "item.carnival.bacon": "Bacon",
+  "item.carnival.raw_bacon": "Raw Bacon",
+  "item.carnival.bacon_donut": "Bacon Donut",
+  "item.carnival.raw_donut": "Raw Donut",
+  "item.carnival.plain_donut": "Plain Donut",
+  "item.carnival.iced_donut": "Iced Donut",
+  "item.carnival.donut_with_sprinkles": "Donut with Sprinkles",
+  "item.carnival.batter_bucket": "Batter Bucket",
+  "item.carnival.carnival_ticket": "Carnival Ticket",
+  "item.carnival.cooked_sausage": "Cooked Sausage",
+  "item.carnival.corn_dog": "Corn Dog",
+  "item.carnival.cyanide_bottle": "Cyanide Bottle",
+  "item.carnival.giant_waffle": "Giant Waffle",
+  "item.carnival.hot_dog": "Hot Dog",
+  "item.carnival.raw_hotdog": "Raw Hot Dog",
+  "item.carnival.icing": "Icing",
+  "item.carnival.raw_corn_dog": "Raw Corn Dog",
+  "item.carnival.sprinkles": "Sprinkles",
+  "item.carnival.candy_apple": "Candy Apple",
+  "item.carnival.candy_floss": "Candy Floss",
+  "item.carnival.pretzel": "Pretzel",
+
+  "item.carnival.blue_snow_cone": "Blue Snow Cone",
+  "item.carnival.green_snow_cone": "Green Snow Cone",
+  "item.carnival.lightblue_snow_cone": "Light Blue Snow Cone",
+  "item.carnival.lime_snow_cone": "Lime Snow Cone",
+  "item.carnival.magenta_snow_cone": "Magenta Snow Cone",
+  "item.carnival.orange_snow_cone": "Orange Snow Cone",
+  "item.carnival.plain_snow_cone": "Plain Snow Cone",
+  "item.carnival.purple_snow_cone": "Purple Snow Cone",
+  "item.carnival.red_snow_cone": "Red Snow Cone",
+  "item.carnival.yellow_snow_cone": "Yellow Snow Cone",
+  "item.carnival.multi_colored_snowcone": "Multi Colored Snow Cone",
+
+  "item.carnival.test_block": "Test Block",
+  "block.carnival.test_block": "Test Block",
+
+  "item.carnival.carnival_music": "Carnival Music Disc",
+  "item.carnival.carnival_music.desc": "Carnival Music"
+}

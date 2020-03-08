@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "carnival:raw_corn_dog"
+  },
+  "result": "carnival:corn_dog",
+  "experience": 0.7,
+  "cookingtime": 200
+}

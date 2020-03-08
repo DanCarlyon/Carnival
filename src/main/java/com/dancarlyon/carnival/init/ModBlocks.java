@@ -1,22 +1,26 @@
 package com.dancarlyon.carnival.init;
 
-import com.dancarlyon.carnival.block.BlockCarnival;
-import com.dancarlyon.carnival.block.BlockTicketMachine;
-import com.dancarlyon.carnival.handler.ConfigurationHandler;
-import com.dancarlyon.carnival.reference.Reference;
-import cpw.mods.fml.common.registry.GameRegistry;
+import com.dancarlyon.carnival.Carnival;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraftforge.common.ToolType;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.registries.ObjectHolder;
 
-@GameRegistry.ObjectHolder(Reference.MOD_ID)
-public class ModBlocks
-{
-    public static final BlockCarnival ticketmachine = new BlockTicketMachine();
+@Mod.EventBusSubscriber(modid = Carnival.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@ObjectHolder(Carnival.MOD_ID)
+public class ModBlocks {
 
-    public static void init()
-    {
-        if(ConfigurationHandler.enableExperimentalStuffAndThings == true) {
-            if (ConfigurationHandler.enableTicketMachineBlock) {
-                GameRegistry.registerBlock(ticketmachine, "ticketmachine");
-            }
-        }
+    public static final Block test_block = null;
+
+    @SubscribeEvent
+    public static void registerBlocks(RegistryEvent.Register<Block> event) {
+        event.getRegistry().registerAll(
+
+                new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(5).harvestLevel(2).harvestTool(ToolType.PICKAXE)).setRegistryName(Carnival.MOD_ID, "test_block")
+
+        );
     }
 }

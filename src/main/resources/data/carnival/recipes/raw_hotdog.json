@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ppp",
+    "   "
+  ],
+  "key": {
+    "p": {
+      "item": "minecraft:porkchop"
+    }
+  },
+  "result": {
+    "item": "carnival:raw_hotdog",
+    "count": 3
+  }
+}

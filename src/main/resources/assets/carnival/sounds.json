@@ -2,27 +2,27 @@
   "clown.hit": {
     "category": "master",
     "sounds": [
-      "clown_hit"
+      "carnival:clown_hit"
     ]
   },
   "clown.die": {
     "category": "master",
     "sounds": [
-      "clown_die"
+      "carnival:clown_die"
     ]
   },
   "carnival_music": {
-    "category": "music",
+    "category": "record",
     "sounds": [
       {
-        "name": "carnival_music",
+        "name": "carnival:carnival_music",
         "stream": true
       }]
   },
   "cha_ching": {
     "category": "master",
     "sounds": [
-      "cha_ching"
+      "carnival:cha_ching"
     ]
   }
 }

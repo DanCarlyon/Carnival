@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    "sas",
+    " w "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:sugar"
+    },
+    "a": {
+      "item": "minecraft:apple"
+    },
+    "w": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "carnival:candy_apple",
+    "count": 1
+  }
+}

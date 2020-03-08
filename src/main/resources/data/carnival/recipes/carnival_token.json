@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:gold_nugget"
+  },
+  "result": "carnival:carnival_token",
+  "experience": 1.0,
+  "cookingtime": 250
+}

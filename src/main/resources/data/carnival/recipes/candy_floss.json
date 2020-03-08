@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    "sws",
+    " w "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:sugar"
+    },
+    "w": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "carnival:candy_floss",
+    "count": 1
+  }
+}

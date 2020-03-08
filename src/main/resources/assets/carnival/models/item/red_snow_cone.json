@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "carnival:item/red_snow_cone"
+  }
+}

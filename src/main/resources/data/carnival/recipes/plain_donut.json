@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "carnival:raw_donut"
+  },
+  "result": "carnival:plain_donut",
+  "experience": 0.7,
+  "cookingtime": 200
+}

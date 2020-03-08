@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    " m ",
+    " s "
+  ],
+  "key": {
+    "b": {
+      "item": "carnival:batter_bucket"
+    },
+    "m": {
+      "item": "carnival:raw_hotdog"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "carnival:raw_corn_dog",
+    "count": 1
+  }
+}

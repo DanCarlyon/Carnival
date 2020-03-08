@@ -1,0 +1,11 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+[[mods]]
+modId="carnival"
+version="1.14.4-1.0.5"
+displayName="Carnival Mod"
+authors="DanCarlyon"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/carnival-mod"
+description='''
+All the fun of the Carnival in Minecraft.
+'''

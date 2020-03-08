@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "bhb",
+    " b "
+  ],
+  "key": {
+    "b": { "item": "minecraft:bread" },
+    "h": { "item": "carnival:cooked_sausage" }
+  },
+  "result": {
+    "item": "carnival:hot_dog",
+    "count": 4
+  }
+}
